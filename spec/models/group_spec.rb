@@ -10,13 +10,13 @@ RSpec.describe Group, type: :model do
   it 'number of groups per user should not be greater than the limit set' do
     maximal_number_of_groups = Group::MAX_NUMBER_OF_GROUPS_PER_USER
     user = build_user
-    (maximal_number_of_groups+3).times { Group.create(user: user, name: Faker::Name.name) }
+    (maximal_number_of_groups+3).times { build_group(user: user, name: Faker::Name.name) }
     expect(user.groups.count).to eq(10)
   end
 
   private
     def build_group(user:, name:)
-      Group.new(user: user, name: name)
+      Group.create(user: user, name: name)
     end
 
     def build_user
