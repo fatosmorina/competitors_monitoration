@@ -3,6 +3,7 @@ class Product < ApplicationRecord
   MAX_NUMBER_OF_PRODUCTS_PER_GROUP = 8
 
   belongs_to :group
+  has_many :versions
 
   validates_presence_of :group, :asin
   validates_length_of :asin, is: 10

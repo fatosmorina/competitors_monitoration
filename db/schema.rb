@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170908065956) do
+ActiveRecord::Schema.define(version: 20170908161711) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -55,6 +55,22 @@ ActiveRecord::Schema.define(version: 20170908065956) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "versions", force: :cascade do |t|
+    t.string   "title"
+    t.text     "images"
+    t.text     "features"
+    t.integer  "reviews_number"
+    t.integer  "best_seller_rank"
+    t.string   "best_seller_category"
+    t.string   "asin",                 null: false
+    t.float    "price"
+    t.integer  "product_id"
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
+    t.index ["product_id"], name: "index_versions_on_product_id", using: :btree
+  end
+
   add_foreign_key "groups", "users"
   add_foreign_key "products", "groups"
+  add_foreign_key "versions", "products"
 end
