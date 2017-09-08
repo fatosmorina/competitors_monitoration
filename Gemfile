@@ -52,6 +52,7 @@ group :test do
   gem "simplecov", require: false
   gem "timecop"
   gem "webmock"
+  gem 'faker'
 end
 
 group :staging, :production do
