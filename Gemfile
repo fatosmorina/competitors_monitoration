@@ -20,6 +20,7 @@ gem "sprockets", ">= 3.0.0"
 gem "suspenders"
 gem "title"
 gem "uglifier"
+gem 'money-rails', '~>1'
 
 group :development do
   gem "listen"
