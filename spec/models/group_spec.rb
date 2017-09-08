@@ -5,6 +5,8 @@ RSpec.describe Group, type: :model do
   it { should validate_presence_of(:name) }
 
   it { should validate_presence_of(:user) }
+  
+  it { should belong_to(:user) }
 
 
   it 'number of groups per user should not be greater than the limit set' do
