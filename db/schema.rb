@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170908182058) do
+ActiveRecord::Schema.define(version: 20170909131241) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -61,11 +61,10 @@ ActiveRecord::Schema.define(version: 20170908182058) do
     t.text     "features"
     t.integer  "reviews_number"
     t.integer  "best_seller_rank"
-    t.string   "best_seller_category"
     t.integer  "price"
     t.integer  "product_id"
-    t.datetime "created_at",           null: false
-    t.datetime "updated_at",           null: false
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
     t.index ["product_id"], name: "index_versions_on_product_id", using: :btree
   end
 
