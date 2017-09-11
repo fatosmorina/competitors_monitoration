@@ -1,0 +1,655 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AWS_ACCESS_KEY_ID&AssociateTag=AWS_ASSOCIATE_TAG&ItemId=B06WP5P93V&Operation=ItemLookup&ResponseGroup=ItemAttributes,Images,Reviews&Service=AWSECommerceService&Signature=koiFE3QAyJItbv9hr2iB3jTplBUZnYYigCEpVojhAqU=&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2017-09-11T10:15:11Z&Version=2013-08-01
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Jeff/1.5.2 (Language=Ruby; Fatos-MacBook.local)
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 11 Sep 2017 10:15:11 GMT
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Vary:
+      - Accept-Encoding,User-Agent
+    body:
+      encoding: ASCII-8BIT
+      string: '<?xml version="1.0" ?><ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2013-08-01"><OperationRequest><HTTPHeaders><Header
+        Name="UserAgent" Value="Jeff/1.5.2 (Language=Ruby; Fatos-MacBook.local)"></Header></HTTPHeaders><RequestId>864ea7c3-f252-4a03-bb4a-24e85516dab2</RequestId><Arguments><Argument
+        Name="AWSAccessKeyId" Value="AWS_ACCESS_KEY_ID"></Argument><Argument Name="AssociateTag"
+        Value="AWS_ASSOCIATE_TAG"></Argument><Argument Name="ItemId" Value="B06WP5P93V"></Argument><Argument
+        Name="Operation" Value="ItemLookup"></Argument><Argument Name="ResponseGroup"
+        Value="ItemAttributes,Images,Reviews"></Argument><Argument Name="Service"
+        Value="AWSECommerceService"></Argument><Argument Name="SignatureMethod" Value="HmacSHA256"></Argument><Argument
+        Name="SignatureVersion" Value="2"></Argument><Argument Name="Timestamp" Value="2017-09-11T10:15:11Z"></Argument><Argument
+        Name="Version" Value="2013-08-01"></Argument><Argument Name="Signature" Value="koiFE3QAyJItbv9hr2iB3jTplBUZnYYigCEpVojhAqU="></Argument></Arguments><RequestProcessingTime>0.0178339120000000</RequestProcessingTime></OperationRequest><Items><Request><IsValid>True</IsValid><ItemLookupRequest><IdType>ASIN</IdType><ItemId>B06WP5P93V</ItemId><ResponseGroup>ItemAttributes</ResponseGroup><ResponseGroup>Images</ResponseGroup><ResponseGroup>Reviews</ResponseGroup><VariationPage>All</VariationPage></ItemLookupRequest></Request><Item><ASIN>B06WP5P93V</ASIN><ParentASIN>B06VVPRHZ8</ParentASIN><DetailPageURL>https://www.amazon.com/PowerNet-SweetSpot-Training-Baseball-Softball/dp/B06WP5P93V?psc=1&amp;SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06WP5P93V</DetailPageURL><ItemLinks><ItemLink><Description>Technical
+        Details</Description><URL>https://www.amazon.com/PowerNet-SweetSpot-Training-Baseball-Softball/dp/tech-data/B06WP5P93V?SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink><ItemLink><Description>Add
+        To Baby Registry</Description><URL>https://www.amazon.com/gp/registry/baby/add-item.html?asin.0=B06WP5P93V&amp;SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink><ItemLink><Description>Add
+        To Wedding Registry</Description><URL>https://www.amazon.com/gp/registry/wedding/add-item.html?asin.0=B06WP5P93V&amp;SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink><ItemLink><Description>Add
+        To Wishlist</Description><URL>https://www.amazon.com/gp/registry/wishlist/add-item.html?asin.0=B06WP5P93V&amp;SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink><ItemLink><Description>Tell
+        A Friend</Description><URL>https://www.amazon.com/gp/pdp/taf/B06WP5P93V?SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink><ItemLink><Description>All
+        Customer Reviews</Description><URL>https://www.amazon.com/review/product/B06WP5P93V?SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink><ItemLink><Description>All
+        Offers</Description><URL>https://www.amazon.com/gp/offer-listing/B06WP5P93V?SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink></ItemLinks><SmallImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL75_.jpg</URL><Height
+        Units="pixels">11</Height><Width Units="pixels">75</Width></SmallImage><MediumImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL160_.jpg</URL><Height
+        Units="pixels">23</Height><Width Units="pixels">160</Width></MediumImage><LargeImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL.jpg</URL><Height
+        Units="pixels">71</Height><Width Units="pixels">500</Width></LargeImage><ImageSets><ImageSet
+        Category="variant"><SwatchImage><URL>https://images-na.ssl-images-amazon.com/images/I/41ThalOLCiL._SL30_.jpg</URL><Height
+        Units="pixels">23</Height><Width Units="pixels">30</Width></SwatchImage><SmallImage><URL>https://images-na.ssl-images-amazon.com/images/I/41ThalOLCiL._SL75_.jpg</URL><Height
+        Units="pixels">57</Height><Width Units="pixels">75</Width></SmallImage><ThumbnailImage><URL>https://images-na.ssl-images-amazon.com/images/I/41ThalOLCiL._SL75_.jpg</URL><Height
+        Units="pixels">57</Height><Width Units="pixels">75</Width></ThumbnailImage><TinyImage><URL>https://images-na.ssl-images-amazon.com/images/I/41ThalOLCiL._SL110_.jpg</URL><Height
+        Units="pixels">84</Height><Width Units="pixels">110</Width></TinyImage><MediumImage><URL>https://images-na.ssl-images-amazon.com/images/I/41ThalOLCiL._SL160_.jpg</URL><Height
+        Units="pixels">122</Height><Width Units="pixels">160</Width></MediumImage><LargeImage><URL>https://images-na.ssl-images-amazon.com/images/I/41ThalOLCiL.jpg</URL><Height
+        Units="pixels">381</Height><Width Units="pixels">500</Width></LargeImage><HiResImage><URL>https://images-na.ssl-images-amazon.com/images/I/6105FSMWGBL.jpg</URL><Height
+        Units="pixels">915</Height><Width Units="pixels">1200</Width></HiResImage></ImageSet><ImageSet
+        Category="variant"><SwatchImage><URL>https://images-na.ssl-images-amazon.com/images/I/41eyYuXC7OL._SL30_.jpg</URL><Height
+        Units="pixels">14</Height><Width Units="pixels">30</Width></SwatchImage><SmallImage><URL>https://images-na.ssl-images-amazon.com/images/I/41eyYuXC7OL._SL75_.jpg</URL><Height
+        Units="pixels">34</Height><Width Units="pixels">75</Width></SmallImage><ThumbnailImage><URL>https://images-na.ssl-images-amazon.com/images/I/41eyYuXC7OL._SL75_.jpg</URL><Height
+        Units="pixels">34</Height><Width Units="pixels">75</Width></ThumbnailImage><TinyImage><URL>https://images-na.ssl-images-amazon.com/images/I/41eyYuXC7OL._SL110_.jpg</URL><Height
+        Units="pixels">50</Height><Width Units="pixels">110</Width></TinyImage><MediumImage><URL>https://images-na.ssl-images-amazon.com/images/I/41eyYuXC7OL._SL160_.jpg</URL><Height
+        Units="pixels">73</Height><Width Units="pixels">160</Width></MediumImage><LargeImage><URL>https://images-na.ssl-images-amazon.com/images/I/41eyYuXC7OL.jpg</URL><Height
+        Units="pixels">229</Height><Width Units="pixels">500</Width></LargeImage><HiResImage><URL>https://images-na.ssl-images-amazon.com/images/I/81-bmit%2B1VL.jpg</URL><Height
+        Units="pixels">1173</Height><Width Units="pixels">2560</Width></HiResImage></ImageSet><ImageSet
+        Category="variant"><SwatchImage><URL>https://images-na.ssl-images-amazon.com/images/I/61cO8AeKt8L._SL30_.jpg</URL><Height
+        Units="pixels">21</Height><Width Units="pixels">30</Width></SwatchImage><SmallImage><URL>https://images-na.ssl-images-amazon.com/images/I/61cO8AeKt8L._SL75_.jpg</URL><Height
+        Units="pixels">54</Height><Width Units="pixels">75</Width></SmallImage><ThumbnailImage><URL>https://images-na.ssl-images-amazon.com/images/I/61cO8AeKt8L._SL75_.jpg</URL><Height
+        Units="pixels">54</Height><Width Units="pixels">75</Width></ThumbnailImage><TinyImage><URL>https://images-na.ssl-images-amazon.com/images/I/61cO8AeKt8L._SL110_.jpg</URL><Height
+        Units="pixels">79</Height><Width Units="pixels">110</Width></TinyImage><MediumImage><URL>https://images-na.ssl-images-amazon.com/images/I/61cO8AeKt8L._SL160_.jpg</URL><Height
+        Units="pixels">114</Height><Width Units="pixels">160</Width></MediumImage><LargeImage><URL>https://images-na.ssl-images-amazon.com/images/I/61cO8AeKt8L.jpg</URL><Height
+        Units="pixels">357</Height><Width Units="pixels">500</Width></LargeImage><HiResImage><URL>https://images-na.ssl-images-amazon.com/images/I/91TVTaj3c%2BL.jpg</URL><Height
+        Units="pixels">1200</Height><Width Units="pixels">1680</Width></HiResImage></ImageSet><ImageSet
+        Category="primary"><SwatchImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL30_.jpg</URL><Height
+        Units="pixels">4</Height><Width Units="pixels">30</Width></SwatchImage><SmallImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL75_.jpg</URL><Height
+        Units="pixels">11</Height><Width Units="pixels">75</Width></SmallImage><ThumbnailImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL75_.jpg</URL><Height
+        Units="pixels">11</Height><Width Units="pixels">75</Width></ThumbnailImage><TinyImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL110_.jpg</URL><Height
+        Units="pixels">16</Height><Width Units="pixels">110</Width></TinyImage><MediumImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL160_.jpg</URL><Height
+        Units="pixels">23</Height><Width Units="pixels">160</Width></MediumImage><LargeImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL.jpg</URL><Height
+        Units="pixels">71</Height><Width Units="pixels">500</Width></LargeImage><HiResImage><URL>https://images-na.ssl-images-amazon.com/images/I/41icml4%2BMTL.jpg</URL><Height
+        Units="pixels">213</Height><Width Units="pixels">1500</Width></HiResImage></ImageSet></ImageSets><ItemAttributes><Binding>Misc.</Binding><Brand>PowerNet</Brand><EAN>0653341833204</EAN><EANList><EANListElement>0653341833204</EANListElement></EANList><Feature>Used
+        and Endorsed by Pro Baseball Players OMAR INFANTE and GORKYS HERNANDEZ</Feature><Feature>The
+        red 5-Inch area represents the optimized "SWEET SPOT" area of the BAT. Features
+        a slim 1.5" body and 2" barrel leaving little room for error.</Feature><Feature>The
+        smaller size forces the hitter''s eyes to work better which results in a more
+        efficient swing.</Feature><Feature>Instant feedback provided after each swing.
+        Feel and hear the off-spot hits, and perfect SWEET SPOT HITS.</Feature><Feature>Choose
+        from 3 Bat Sizes: 27" (24oz), 31" (28oz), 34" (32oz)</Feature><IsAutographed>0</IsAutographed><IsMemorabilia>0</IsMemorabilia><Label>PowerNet</Label><ListPrice><Amount>5999</Amount><CurrencyCode>USD</CurrencyCode><FormattedPrice>$59.99</FormattedPrice></ListPrice><Manufacturer>PowerNet</Manufacturer><MPN>1089</MPN><PackageDimensions><Height
+        Units="hundredths-inches">240</Height><Length Units="hundredths-inches">2760</Length><Weight
+        Units="hundredths-pounds">180</Weight><Width Units="hundredths-inches">250</Width></PackageDimensions><PackageQuantity>1</PackageQuantity><PartNumber>1089</PartNumber><ProductGroup>Sports</ProductGroup><ProductTypeName>SPORTING_GOODS</ProductTypeName><Publisher>PowerNet</Publisher><Size>27
+        Inch - 24 oz</Size><Studio>PowerNet</Studio><Title>PowerNet 27" SweetSpot
+        Training Bat for Baseball Softball</Title><UPC>653341833204</UPC><UPCList><UPCListElement>653341833204</UPCListElement></UPCList></ItemAttributes><CustomerReviews><IFrameURL>https://www.amazon.com/reviews/iframe?akid=AWS_ACCESS_KEY_ID&amp;alinkCode=xm2&amp;asin=B06WP5P93V&amp;atag=AWS_ASSOCIATE_TAG&amp;exp=2017-09-12T10%3A15%3A12Z&amp;v=2&amp;sig=OCWloWnN%252FQrm6qmEjGbLQ%252FwScFAH3tCo72%252B8druTkcM%253D</IFrameURL><HasReviews>true</HasReviews></CustomerReviews></Item></Items></ItemLookupResponse>'
+    http_version: 
+  recorded_at: Mon, 11 Sep 2017 10:15:12 GMT
+- request:
+    method: get
+    uri: https://www.amazon.com/reviews/iframe?akid=AWS_ACCESS_KEY_ID&alinkCode=xm2&asin=B06WP5P93V&atag=AWS_ASSOCIATE_TAG&exp=2017-09-12T10:15:12Z&sig=OCWloWnN%252FQrm6qmEjGbLQ%252FwScFAH3tCo72%2B8druTkcM%253D&v=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 503
+      message: Service Unavailable
+    headers:
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '1179'
+      Connection:
+      - keep-alive
+      Server:
+      - Server
+      Date:
+      - Mon, 11 Sep 2017 10:15:13 GMT
+      Vary:
+      - Content-Type,Host,Cookie,Accept-Encoding,User-Agent
+      Last-Modified:
+      - Fri, 18 Aug 2017 23:14:14 GMT
+      Etag:
+      - '"9de-5570f49923d80-gzip"'
+      Accept-Ranges:
+      - bytes
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 64150aec025f89247bcddad7c210f6cb.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - wH-xnsYSPu4iNKMugpZQCnRnEDAyJxxiIEh2el0qF-qbiDSOls70gQ==
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <!--
+                To discuss automated access to Amazon data please contact api-services-support@amazon.com.
+                For information about migrating to our APIs refer to our Marketplace APIs at https://developer.amazonservices.com/ref=rm_5_sv, or our Product Advertising API at https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html/ref=rm_5_ac for advertising use cases.
+        -->
+
+        <!doctype html>
+        <html>
+        <head>
+          <meta charset="utf-8">
+          <meta http-equiv="x-ua-compatible" content="ie=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <title>503 Service Unavailable Error</title>
+          <style>html, body {
+            padding: 0;
+            margin: 0
+          }
+
+          img {
+            border: 0
+          }
+
+          #a {
+            background: #232f3e;
+            padding: 11px 11px 11px 192px
+          }
+
+          #b {
+            position: absolute;
+            left: 22px;
+            top: 12px
+          }
+
+          #c {
+            position: relative;
+            max-width: 800px;
+            padding: 0 40px 0 0
+          }
+
+          #e, #f {
+            height: 35px;
+            border: 0;
+            font-size: 1em
+          }
+
+          #e {
+            width: 100%;
+            margin: 0;
+            padding: 0 10px;
+            border-radius: 4px 0 0 4px
+          }
+
+          #f {
+            cursor: pointer;
+            background: #febd69;
+            font-weight: bold;
+            border-radius: 0 4px 4px 0;
+            -webkit-appearance: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 0 12px
+          }
+
+          @media (max-width: 500px) {
+            #a {
+              padding: 55px 10px 10px
+            }
+
+            #b {
+              left: 6px
+            }
+          }
+
+          #g {
+            text-align: center;
+            margin: 30px 0
+          }
+
+          #g img {
+            max-width: 90%
+          }
+
+          #d {
+            display: none
+          }
+
+          #d[src] {
+            display: inline
+          }</style>
+        </head>
+        <body><a href="/"><img id="b" src="https://images-na.ssl-images-amazon.com/images/G/01/error/logo._TTD_.png"
+                               alt="Amazon.com"></a>
+        <form id="a" accept-charset="utf-8" action="/s" method="GET" role="search">
+          <div id="c"><input id="e" name="field-keywords" placeholder="Search"><input id="f" type="submit" value="Go"></div>
+        </form>
+        <div id="g">
+          <div><a href="/"><img src="https://images-na.ssl-images-amazon.com/images/G/01/error/500_503.png"
+                                                alt="Sorry! Something went wrong on our end. Please go back and try again or go to Amazon's home page."></a>
+          </div>
+          <a href="/dogsofamazon" target="_blank" rel="noopener noreferrer"><img id="d" alt="Dogs of Amazon"></a>
+          <script>document.getElementById("d").src = "https://images-na.ssl-images-amazon.com/images/G/01/error/" + (Math.floor(Math.random() * 43) + 1) + "._TTD_.jpg";</script>
+        </div>
+        </body>
+        </html>
+    http_version: 
+  recorded_at: Mon, 11 Sep 2017 10:15:13 GMT
+- request:
+    method: get
+    uri: https://www.amazon.com/reviews/iframe?akid=AWS_ACCESS_KEY_ID&alinkCode=xm2&asin=B06WP5P93V&atag=AWS_ASSOCIATE_TAG&exp=2017-09-12T10:15:12Z&sig=OCWloWnN%252FQrm6qmEjGbLQ%252FwScFAH3tCo72%2B8druTkcM%253D&v=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 503
+      message: Service Unavailable
+    headers:
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '2279'
+      Connection:
+      - keep-alive
+      Server:
+      - Server
+      Date:
+      - Mon, 11 Sep 2017 10:15:14 GMT
+      Vary:
+      - Content-Type,Host,Cookie,Accept-Encoding,User-Agent
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 bd5652a800046ffa43683320c0e731b4.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - "-2Cm0RAC1Lh2f781GEdYqNzRRVQrfB_EvOtmtPCnDK7cFymFttxLlQ=="
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <!DOCTYPE html>
+        <!--[if lt IE 7]> <html lang="en-us" class="a-no-js a-lt-ie9 a-lt-ie8 a-lt-ie7"> <![endif]-->
+        <!--[if IE 7]>    <html lang="en-us" class="a-no-js a-lt-ie9 a-lt-ie8"> <![endif]-->
+        <!--[if IE 8]>    <html lang="en-us" class="a-no-js a-lt-ie9"> <![endif]-->
+        <!--[if gt IE 8]><!-->
+        <html class="a-no-js" lang="en-us"><!--<![endif]--><head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title dir="ltr">Robot Check</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUI-3c913031596ca78a3768f4e934b1cc02ce238101.secure.min._V1_.css">
+        <script>
+
+        if (true === true) {
+            var ue_t0 = (+ new Date()),
+                ue_csm = window,
+                ue = { t0: ue_t0, d: function() { return (+new Date() - ue_t0); } },
+                ue_furl = "fls-na.amazon.com",
+                ue_mid = "ATVPDKIKX0DER",
+                ue_sid = (document.cookie.match(/session-id=([0-9-]+)/) || [])[1],
+                ue_sn = "opfcaptcha.amazon.com",
+                ue_id = '93MJYS61K394FPQFK3Q3';
+        }
+        </script>
+        </head>
+        <body>
+
+        <!--
+                To discuss automated access to Amazon data please contact api-services-support@amazon.com.
+                For information about migrating to our APIs refer to our Marketplace APIs at https://developer.amazonservices.com/ref=rm_c_sv, or our Product Advertising API at https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html/ref=rm_c_ac for advertising use cases.
+        -->
+
+        <!--
+        Correios.DoNotSend
+        -->
+
+        <div class="a-container a-padding-double-large" style="min-width:350px;padding:44px 0 !important">
+
+            <div class="a-row a-spacing-double-large" style="width: 350px; margin: 0 auto">
+
+                <div class="a-row a-spacing-medium a-text-center"><i class="a-icon a-logo"></i></div>
+
+                <div class="a-box a-alert a-alert-info a-spacing-base">
+                    <div class="a-box-inner">
+                        <i class="a-icon a-icon-alert"></i>
+                        <h4>Enter the characters you see below</h4>
+                        <p class="a-last">Sorry, we just need to make sure you're not a robot. For best results, please make sure your browser is accepting cookies.</p>
+                        </div>
+                    </div>
+
+                    <div class="a-section">
+
+                        <div class="a-box a-color-offset-background">
+                            <div class="a-box-inner a-padding-extra-large">
+
+                                <form method="get" action="/errors/validateCaptcha" name="">
+                                    <input type=hidden name="amzn" value="zEHfxIDmwBBFbHsJQpdnBA==" /><input type=hidden name="amzn-r" value="&#047;reviews&#047;iframe?akid&#061;AWS_ACCESS_KEY_ID&amp;alinkCode&#061;xm2&amp;asin&#061;B06WP5P93V&amp;atag&#061;AWS_ASSOCIATE_TAG&amp;exp&#061;2017&#045;09&#045;12T10&#037;3A15&#037;3A12Z&amp;v&#061;2&amp;sig&#061;OCWloWnN&#037;252FQrm6qmEjGbLQ&#037;252FwScFAH3tCo72&#037;252B8druTkcM&#037;253D" />
+                                    <div class="a-row a-spacing-large">
+                                        <div class="a-box">
+                                            <div class="a-box-inner">
+                                                <h4>Type the characters you see in this image:</h4>
+                                                <div class="a-row a-text-center">
+                                                    <img src="https://images-na.ssl-images-amazon.com/captcha/druexhzz/Captcha_npjjquhypj.jpg">
+                                                </div>
+                                                <div class="a-row a-spacing-base">
+                                                    <div class="a-row">
+                                                        <div class="a-column a-span6">
+                                                        </div>
+                                                        <div class="a-column a-span6 a-span-last a-text-right">
+                                                            <a onclick="window.location.reload()">Try different image</a>
+                                                        </div>
+                                                    </div>
+                                                    <input autocomplete="off" spellcheck="false" placeholder="Type characters" id="captchacharacters" name="field-keywords" class="a-span12" autocapitalize="off" autocorrect="off" type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="a-section a-spacing-extra-large">
+
+                                        <div class="a-row">
+                                            <span class="a-button a-button-primary a-span12">
+                                                <span class="a-button-inner">
+                                                    <button type="submit" class="a-button-text">Continue shopping</button>
+                                                </span>
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="a-divider a-divider-section"><div class="a-divider-inner"></div></div>
+
+                <div class="a-text-center a-spacing-small a-size-mini">
+                    <a href="http://www.amazon.com/gp/help/customer/display.html/ref=footer_cou?ie=UTF8&nodeId=508088">Conditions of Use</a>
+                    <span class="a-letter-space"></span>
+                    <span class="a-letter-space"></span>
+                    <span class="a-letter-space"></span>
+                    <span class="a-letter-space"></span>
+                    <a href="http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496">Privacy Policy</a>
+                </div>
+                <div class="a-text-center a-size-mini a-color-secondary">
+                  &copy; 1996-2014, Amazon.com, Inc. or its affiliates
+                  <script>
+                   if (true === true) {
+                     document.write('<img src="https://fls-na.amaz'+'on.com/'+'1/oc-csi/1/OP/requestId=93MJYS61K394FPQFK3Q3&js=1" />');
+                   };
+                  </script>
+                  <noscript>
+                    <img src="https://fls-na.amazon.com/1/oc-csi/1/OP/requestId=93MJYS61K394FPQFK3Q3&js=0" />
+                  </noscript>
+                </div>
+            </div>
+            <script>
+            if (true === true) {
+                var elem = document.createElement("script");
+                elem.src = "https://images-na.ssl-images-amazon.com/images/G/01/csminstrumentation/csm-captcha-instrumentation.min._V" + (+ new Date()) + "_.js";
+                document.getElementsByTagName('head')[0].appendChild(elem);
+            }
+            </script>
+        </body></html>
+    http_version: 
+  recorded_at: Mon, 11 Sep 2017 10:15:14 GMT
+- request:
+    method: get
+    uri: https://www.amazon.com/reviews/iframe?akid=AWS_ACCESS_KEY_ID&alinkCode=xm2&asin=B06WP5P93V&atag=AWS_ASSOCIATE_TAG&exp=2017-09-12T10:15:12Z&sig=OCWloWnN%252FQrm6qmEjGbLQ%252FwScFAH3tCo72%2B8druTkcM%253D&v=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 503
+      message: Service Unavailable
+    headers:
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '2277'
+      Connection:
+      - keep-alive
+      Server:
+      - Server
+      Date:
+      - Mon, 11 Sep 2017 10:15:15 GMT
+      Vary:
+      - Content-Type,Host,Cookie,Accept-Encoding,User-Agent
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 d5e8c461ea4d131327b2ba97a2d7f473.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - YOtcu154u2J-L537JAT_MwCSZYIIDe0jagi_4O20EVj0Zuy9BXfH6A==
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <!DOCTYPE html>
+        <!--[if lt IE 7]> <html lang="en-us" class="a-no-js a-lt-ie9 a-lt-ie8 a-lt-ie7"> <![endif]-->
+        <!--[if IE 7]>    <html lang="en-us" class="a-no-js a-lt-ie9 a-lt-ie8"> <![endif]-->
+        <!--[if IE 8]>    <html lang="en-us" class="a-no-js a-lt-ie9"> <![endif]-->
+        <!--[if gt IE 8]><!-->
+        <html class="a-no-js" lang="en-us"><!--<![endif]--><head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title dir="ltr">Robot Check</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUI-3c913031596ca78a3768f4e934b1cc02ce238101.secure.min._V1_.css">
+        <script>
+
+        if (true === true) {
+            var ue_t0 = (+ new Date()),
+                ue_csm = window,
+                ue = { t0: ue_t0, d: function() { return (+new Date() - ue_t0); } },
+                ue_furl = "fls-na.amazon.com",
+                ue_mid = "ATVPDKIKX0DER",
+                ue_sid = (document.cookie.match(/session-id=([0-9-]+)/) || [])[1],
+                ue_sn = "opfcaptcha.amazon.com",
+                ue_id = '30DQ0G5KFEPEP7N8JTB4';
+        }
+        </script>
+        </head>
+        <body>
+
+        <!--
+                To discuss automated access to Amazon data please contact api-services-support@amazon.com.
+                For information about migrating to our APIs refer to our Marketplace APIs at https://developer.amazonservices.com/ref=rm_c_sv, or our Product Advertising API at https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html/ref=rm_c_ac for advertising use cases.
+        -->
+
+        <!--
+        Correios.DoNotSend
+        -->
+
+        <div class="a-container a-padding-double-large" style="min-width:350px;padding:44px 0 !important">
+
+            <div class="a-row a-spacing-double-large" style="width: 350px; margin: 0 auto">
+
+                <div class="a-row a-spacing-medium a-text-center"><i class="a-icon a-logo"></i></div>
+
+                <div class="a-box a-alert a-alert-info a-spacing-base">
+                    <div class="a-box-inner">
+                        <i class="a-icon a-icon-alert"></i>
+                        <h4>Enter the characters you see below</h4>
+                        <p class="a-last">Sorry, we just need to make sure you're not a robot. For best results, please make sure your browser is accepting cookies.</p>
+                        </div>
+                    </div>
+
+                    <div class="a-section">
+
+                        <div class="a-box a-color-offset-background">
+                            <div class="a-box-inner a-padding-extra-large">
+
+                                <form method="get" action="/errors/validateCaptcha" name="">
+                                    <input type=hidden name="amzn" value="ZstU2dVZGM45vBBf2JChAQ==" /><input type=hidden name="amzn-r" value="&#047;reviews&#047;iframe?akid&#061;AWS_ACCESS_KEY_ID&amp;alinkCode&#061;xm2&amp;asin&#061;B06WP5P93V&amp;atag&#061;AWS_ASSOCIATE_TAG&amp;exp&#061;2017&#045;09&#045;12T10&#037;3A15&#037;3A12Z&amp;v&#061;2&amp;sig&#061;OCWloWnN&#037;252FQrm6qmEjGbLQ&#037;252FwScFAH3tCo72&#037;252B8druTkcM&#037;253D" />
+                                    <div class="a-row a-spacing-large">
+                                        <div class="a-box">
+                                            <div class="a-box-inner">
+                                                <h4>Type the characters you see in this image:</h4>
+                                                <div class="a-row a-text-center">
+                                                    <img src="https://images-na.ssl-images-amazon.com/captcha/qmdddjhv/Captcha_lxoolnlvir.jpg">
+                                                </div>
+                                                <div class="a-row a-spacing-base">
+                                                    <div class="a-row">
+                                                        <div class="a-column a-span6">
+                                                        </div>
+                                                        <div class="a-column a-span6 a-span-last a-text-right">
+                                                            <a onclick="window.location.reload()">Try different image</a>
+                                                        </div>
+                                                    </div>
+                                                    <input autocomplete="off" spellcheck="false" placeholder="Type characters" id="captchacharacters" name="field-keywords" class="a-span12" autocapitalize="off" autocorrect="off" type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="a-section a-spacing-extra-large">
+
+                                        <div class="a-row">
+                                            <span class="a-button a-button-primary a-span12">
+                                                <span class="a-button-inner">
+                                                    <button type="submit" class="a-button-text">Continue shopping</button>
+                                                </span>
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="a-divider a-divider-section"><div class="a-divider-inner"></div></div>
+
+                <div class="a-text-center a-spacing-small a-size-mini">
+                    <a href="http://www.amazon.com/gp/help/customer/display.html/ref=footer_cou?ie=UTF8&nodeId=508088">Conditions of Use</a>
+                    <span class="a-letter-space"></span>
+                    <span class="a-letter-space"></span>
+                    <span class="a-letter-space"></span>
+                    <span class="a-letter-space"></span>
+                    <a href="http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496">Privacy Policy</a>
+                </div>
+                <div class="a-text-center a-size-mini a-color-secondary">
+                  &copy; 1996-2014, Amazon.com, Inc. or its affiliates
+                  <script>
+                   if (true === true) {
+                     document.write('<img src="https://fls-na.amaz'+'on.com/'+'1/oc-csi/1/OP/requestId=30DQ0G5KFEPEP7N8JTB4&js=1" />');
+                   };
+                  </script>
+                  <noscript>
+                    <img src="https://fls-na.amazon.com/1/oc-csi/1/OP/requestId=30DQ0G5KFEPEP7N8JTB4&js=0" />
+                  </noscript>
+                </div>
+            </div>
+            <script>
+            if (true === true) {
+                var elem = document.createElement("script");
+                elem.src = "https://images-na.ssl-images-amazon.com/images/G/01/csminstrumentation/csm-captcha-instrumentation.min._V" + (+ new Date()) + "_.js";
+                document.getElementsByTagName('head')[0].appendChild(elem);
+            }
+            </script>
+        </body></html>
+    http_version: 
+  recorded_at: Mon, 11 Sep 2017 10:15:15 GMT
+- request:
+    method: get
+    uri: http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AWS_ACCESS_KEY_ID&AssociateTag=AWS_ASSOCIATE_TAG&ItemId=B06VVPRHZ8&Operation=ItemLookup&ResponseGroup=SalesRank&Service=AWSECommerceService&Signature=gkOhmQ7rKeuSzHH1PeLGPfgarCYEvCY2TF/DT/WmlfI=&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2017-09-11T10:15:16Z&Version=2013-08-01
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Jeff/1.5.2 (Language=Ruby; Fatos-MacBook.local)
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 11 Sep 2017 10:15:17 GMT
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Vary:
+      - Accept-Encoding,User-Agent
+    body:
+      encoding: ASCII-8BIT
+      string: <?xml version="1.0" ?><ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2013-08-01"><OperationRequest><HTTPHeaders><Header
+        Name="UserAgent" Value="Jeff/1.5.2 (Language=Ruby; Fatos-MacBook.local)"></Header></HTTPHeaders><RequestId>699941eb-6997-4b04-ba4a-2a342e3eb57a</RequestId><Arguments><Argument
+        Name="AWSAccessKeyId" Value="AWS_ACCESS_KEY_ID"></Argument><Argument Name="AssociateTag"
+        Value="AWS_ASSOCIATE_TAG"></Argument><Argument Name="ItemId" Value="B06VVPRHZ8"></Argument><Argument
+        Name="Operation" Value="ItemLookup"></Argument><Argument Name="ResponseGroup"
+        Value="SalesRank"></Argument><Argument Name="Service" Value="AWSECommerceService"></Argument><Argument
+        Name="SignatureMethod" Value="HmacSHA256"></Argument><Argument Name="SignatureVersion"
+        Value="2"></Argument><Argument Name="Timestamp" Value="2017-09-11T10:15:16Z"></Argument><Argument
+        Name="Version" Value="2013-08-01"></Argument><Argument Name="Signature" Value="gkOhmQ7rKeuSzHH1PeLGPfgarCYEvCY2TF/DT/WmlfI="></Argument></Arguments><RequestProcessingTime>0.0092631180000000</RequestProcessingTime></OperationRequest><Items><Request><IsValid>True</IsValid><ItemLookupRequest><IdType>ASIN</IdType><ItemId>B06VVPRHZ8</ItemId><ResponseGroup>SalesRank</ResponseGroup><VariationPage>All</VariationPage></ItemLookupRequest></Request><Item><ASIN>B06VVPRHZ8</ASIN><ParentASIN>B06VVPRHZ8</ParentASIN><SalesRank>425229</SalesRank></Item></Items></ItemLookupResponse>
+    http_version: 
+  recorded_at: Mon, 11 Sep 2017 10:15:17 GMT
+- request:
+    method: get
+    uri: http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AWS_ACCESS_KEY_ID&AssociateTag=AWS_ASSOCIATE_TAG&HMAC=u3C7d9uIZk48xa7Sla7m6Q==&Item.1.ASIN=B06WP5P93V&Item.1.Quantity=999&Operation=CartCreate&Service=AWSECommerceService&Signature=jpCRf3%2Bm0dnJRQnfMVU1I4XZAvsDYeKfXmMWiZ6%2BgPM=&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2017-09-11T10:15:17Z&Version=2013-08-01
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Jeff/1.5.2 (Language=Ruby; Fatos-MacBook.local)
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 11 Sep 2017 10:15:17 GMT
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Vary:
+      - Accept-Encoding,User-Agent
+    body:
+      encoding: ASCII-8BIT
+      string: '<?xml version="1.0" ?><CartCreateResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2013-08-01"><OperationRequest><HTTPHeaders><Header
+        Name="UserAgent" Value="Jeff/1.5.2 (Language=Ruby; Fatos-MacBook.local)"/></HTTPHeaders><RequestId>5bafd76b-655a-4ead-93c4-7231a89853c4</RequestId><Arguments><Argument
+        Name="AWSAccessKeyId" Value="AWS_ACCESS_KEY_ID"/><Argument Name="AssociateTag"
+        Value="AWS_ASSOCIATE_TAG"/><Argument Name="HMAC" Value="u3C7d9uIZk48xa7Sla7m6Q=="/><Argument
+        Name="Item.1.ASIN" Value="B06WP5P93V"/><Argument Name="Item.1.Quantity" Value="999"/><Argument
+        Name="Operation" Value="CartCreate"/><Argument Name="Service" Value="AWSECommerceService"/><Argument
+        Name="SignatureMethod" Value="HmacSHA256"/><Argument Name="SignatureVersion"
+        Value="2"/><Argument Name="Timestamp" Value="2017-09-11T10:15:17Z"/><Argument
+        Name="Version" Value="2013-08-01"/><Argument Name="Signature" Value="jpCRf3+m0dnJRQnfMVU1I4XZAvsDYeKfXmMWiZ6+gPM="/></Arguments><RequestProcessingTime>0.11415409</RequestProcessingTime></OperationRequest><Cart><Request><IsValid>True</IsValid><CartCreateRequest><Items><Item><ASIN>B06WP5P93V</ASIN><Quantity>999</Quantity></Item></Items></CartCreateRequest><Errors><Error><Code>AWS.ECommerceService.InvalidQuantity</Code><Message>You
+        have exceeded the maximum quantity allowed for the following items: B06WP5P93V.</Message></Error></Errors></Request><CartId>131-4677093-1896223</CartId><HMAC>q9igKqiRJZKaTQF1YA5z6LjaaZ0=</HMAC><URLEncodedHMAC>q9igKqiRJZKaTQF1YA5z6LjaaZ0%3D</URLEncodedHMAC><PurchaseURL>https://www.amazon.com/gp/cart/aws-merge.html?cart-id=131-4677093-1896223&amp;associate-id=AWS_ASSOCIATE_TAG&amp;hmac=q9igKqiRJZKaTQF1YA5z6LjaaZ0%3D&amp;SubscriptionId=AWS_ACCESS_KEY_ID&amp;MergeCart=False</PurchaseURL><SubTotal><Amount>401933</Amount><CurrencyCode>USD</CurrencyCode><FormattedPrice>$4,019.33</FormattedPrice></SubTotal><CartItems><SubTotal><Amount>401933</Amount><CurrencyCode>USD</CurrencyCode><FormattedPrice>$4,019.33</FormattedPrice></SubTotal><CartItem><CartItemId>CUFGNDEZ63RUE</CartItemId><ASIN>B06WP5P93V</ASIN><SellerNickname>Baseball
+        Training Nets</SellerNickname><Quantity>67</Quantity><Title>PowerNet 27" SweetSpot
+        Training Bat for Baseball Softball</Title><ProductGroup>Sports</ProductGroup><Price><Amount>5999</Amount><CurrencyCode>USD</CurrencyCode><FormattedPrice>$59.99</FormattedPrice></Price><ItemTotal><Amount>401933</Amount><CurrencyCode>USD</CurrencyCode><FormattedPrice>$4,019.33</FormattedPrice></ItemTotal></CartItem></CartItems></Cart></CartCreateResponse>'
+    http_version: 
+  recorded_at: Mon, 11 Sep 2017 10:15:17 GMT
+recorded_with: VCR 3.0.3
