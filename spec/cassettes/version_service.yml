@@ -1,0 +1,672 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AWS_ACCESS_KEY_ID&AssociateTag=AWS_ASSOCIATE_TAG&ItemId=B06WP5P93V&Operation=ItemLookup&ResponseGroup=ItemAttributes,Images,Reviews&Service=AWSECommerceService&Signature=GifvWitNGROYmjYsgzx0VM6%2B5UbaSBOAhhusUmAuYKQ=&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2017-09-11T12:33:17Z&Version=2013-08-01
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Jeff/1.5.2 (Language=Ruby; Fatos-MacBook.local)
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 11 Sep 2017 12:33:17 GMT
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Vary:
+      - Accept-Encoding,User-Agent
+    body:
+      encoding: ASCII-8BIT
+      string: '<?xml version="1.0" ?><ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2013-08-01"><OperationRequest><HTTPHeaders><Header
+        Name="UserAgent" Value="Jeff/1.5.2 (Language=Ruby; Fatos-MacBook.local)"></Header></HTTPHeaders><RequestId>19a6f2b7-7bf3-40d8-918b-ff0fda4b9edb</RequestId><Arguments><Argument
+        Name="AWSAccessKeyId" Value="AWS_ACCESS_KEY_ID"></Argument><Argument Name="AssociateTag"
+        Value="AWS_ASSOCIATE_TAG"></Argument><Argument Name="ItemId" Value="B06WP5P93V"></Argument><Argument
+        Name="Operation" Value="ItemLookup"></Argument><Argument Name="ResponseGroup"
+        Value="ItemAttributes,Images,Reviews"></Argument><Argument Name="Service"
+        Value="AWSECommerceService"></Argument><Argument Name="SignatureMethod" Value="HmacSHA256"></Argument><Argument
+        Name="SignatureVersion" Value="2"></Argument><Argument Name="Timestamp" Value="2017-09-11T12:33:17Z"></Argument><Argument
+        Name="Version" Value="2013-08-01"></Argument><Argument Name="Signature" Value="GifvWitNGROYmjYsgzx0VM6+5UbaSBOAhhusUmAuYKQ="></Argument></Arguments><RequestProcessingTime>0.0211456680000000</RequestProcessingTime></OperationRequest><Items><Request><IsValid>True</IsValid><ItemLookupRequest><IdType>ASIN</IdType><ItemId>B06WP5P93V</ItemId><ResponseGroup>ItemAttributes</ResponseGroup><ResponseGroup>Images</ResponseGroup><ResponseGroup>Reviews</ResponseGroup><VariationPage>All</VariationPage></ItemLookupRequest></Request><Item><ASIN>B06WP5P93V</ASIN><ParentASIN>B06VVPRHZ8</ParentASIN><DetailPageURL>https://www.amazon.com/PowerNet-SweetSpot-Training-Baseball-Softball/dp/B06WP5P93V?psc=1&amp;SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06WP5P93V</DetailPageURL><ItemLinks><ItemLink><Description>Technical
+        Details</Description><URL>https://www.amazon.com/PowerNet-SweetSpot-Training-Baseball-Softball/dp/tech-data/B06WP5P93V?SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink><ItemLink><Description>Add
+        To Baby Registry</Description><URL>https://www.amazon.com/gp/registry/baby/add-item.html?asin.0=B06WP5P93V&amp;SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink><ItemLink><Description>Add
+        To Wedding Registry</Description><URL>https://www.amazon.com/gp/registry/wedding/add-item.html?asin.0=B06WP5P93V&amp;SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink><ItemLink><Description>Add
+        To Wishlist</Description><URL>https://www.amazon.com/gp/registry/wishlist/add-item.html?asin.0=B06WP5P93V&amp;SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink><ItemLink><Description>Tell
+        A Friend</Description><URL>https://www.amazon.com/gp/pdp/taf/B06WP5P93V?SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink><ItemLink><Description>All
+        Customer Reviews</Description><URL>https://www.amazon.com/review/product/B06WP5P93V?SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink><ItemLink><Description>All
+        Offers</Description><URL>https://www.amazon.com/gp/offer-listing/B06WP5P93V?SubscriptionId=AWS_ACCESS_KEY_ID&amp;tag=AWS_ASSOCIATE_TAG&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B06WP5P93V</URL></ItemLink></ItemLinks><SmallImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL75_.jpg</URL><Height
+        Units="pixels">11</Height><Width Units="pixels">75</Width></SmallImage><MediumImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL160_.jpg</URL><Height
+        Units="pixels">23</Height><Width Units="pixels">160</Width></MediumImage><LargeImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL.jpg</URL><Height
+        Units="pixels">71</Height><Width Units="pixels">500</Width></LargeImage><ImageSets><ImageSet
+        Category="variant"><SwatchImage><URL>https://images-na.ssl-images-amazon.com/images/I/41ThalOLCiL._SL30_.jpg</URL><Height
+        Units="pixels">23</Height><Width Units="pixels">30</Width></SwatchImage><SmallImage><URL>https://images-na.ssl-images-amazon.com/images/I/41ThalOLCiL._SL75_.jpg</URL><Height
+        Units="pixels">57</Height><Width Units="pixels">75</Width></SmallImage><ThumbnailImage><URL>https://images-na.ssl-images-amazon.com/images/I/41ThalOLCiL._SL75_.jpg</URL><Height
+        Units="pixels">57</Height><Width Units="pixels">75</Width></ThumbnailImage><TinyImage><URL>https://images-na.ssl-images-amazon.com/images/I/41ThalOLCiL._SL110_.jpg</URL><Height
+        Units="pixels">84</Height><Width Units="pixels">110</Width></TinyImage><MediumImage><URL>https://images-na.ssl-images-amazon.com/images/I/41ThalOLCiL._SL160_.jpg</URL><Height
+        Units="pixels">122</Height><Width Units="pixels">160</Width></MediumImage><LargeImage><URL>https://images-na.ssl-images-amazon.com/images/I/41ThalOLCiL.jpg</URL><Height
+        Units="pixels">381</Height><Width Units="pixels">500</Width></LargeImage><HiResImage><URL>https://images-na.ssl-images-amazon.com/images/I/6105FSMWGBL.jpg</URL><Height
+        Units="pixels">915</Height><Width Units="pixels">1200</Width></HiResImage></ImageSet><ImageSet
+        Category="variant"><SwatchImage><URL>https://images-na.ssl-images-amazon.com/images/I/41eyYuXC7OL._SL30_.jpg</URL><Height
+        Units="pixels">14</Height><Width Units="pixels">30</Width></SwatchImage><SmallImage><URL>https://images-na.ssl-images-amazon.com/images/I/41eyYuXC7OL._SL75_.jpg</URL><Height
+        Units="pixels">34</Height><Width Units="pixels">75</Width></SmallImage><ThumbnailImage><URL>https://images-na.ssl-images-amazon.com/images/I/41eyYuXC7OL._SL75_.jpg</URL><Height
+        Units="pixels">34</Height><Width Units="pixels">75</Width></ThumbnailImage><TinyImage><URL>https://images-na.ssl-images-amazon.com/images/I/41eyYuXC7OL._SL110_.jpg</URL><Height
+        Units="pixels">50</Height><Width Units="pixels">110</Width></TinyImage><MediumImage><URL>https://images-na.ssl-images-amazon.com/images/I/41eyYuXC7OL._SL160_.jpg</URL><Height
+        Units="pixels">73</Height><Width Units="pixels">160</Width></MediumImage><LargeImage><URL>https://images-na.ssl-images-amazon.com/images/I/41eyYuXC7OL.jpg</URL><Height
+        Units="pixels">229</Height><Width Units="pixels">500</Width></LargeImage><HiResImage><URL>https://images-na.ssl-images-amazon.com/images/I/81-bmit%2B1VL.jpg</URL><Height
+        Units="pixels">1173</Height><Width Units="pixels">2560</Width></HiResImage></ImageSet><ImageSet
+        Category="variant"><SwatchImage><URL>https://images-na.ssl-images-amazon.com/images/I/61cO8AeKt8L._SL30_.jpg</URL><Height
+        Units="pixels">21</Height><Width Units="pixels">30</Width></SwatchImage><SmallImage><URL>https://images-na.ssl-images-amazon.com/images/I/61cO8AeKt8L._SL75_.jpg</URL><Height
+        Units="pixels">54</Height><Width Units="pixels">75</Width></SmallImage><ThumbnailImage><URL>https://images-na.ssl-images-amazon.com/images/I/61cO8AeKt8L._SL75_.jpg</URL><Height
+        Units="pixels">54</Height><Width Units="pixels">75</Width></ThumbnailImage><TinyImage><URL>https://images-na.ssl-images-amazon.com/images/I/61cO8AeKt8L._SL110_.jpg</URL><Height
+        Units="pixels">79</Height><Width Units="pixels">110</Width></TinyImage><MediumImage><URL>https://images-na.ssl-images-amazon.com/images/I/61cO8AeKt8L._SL160_.jpg</URL><Height
+        Units="pixels">114</Height><Width Units="pixels">160</Width></MediumImage><LargeImage><URL>https://images-na.ssl-images-amazon.com/images/I/61cO8AeKt8L.jpg</URL><Height
+        Units="pixels">357</Height><Width Units="pixels">500</Width></LargeImage><HiResImage><URL>https://images-na.ssl-images-amazon.com/images/I/91TVTaj3c%2BL.jpg</URL><Height
+        Units="pixels">1200</Height><Width Units="pixels">1680</Width></HiResImage></ImageSet><ImageSet
+        Category="primary"><SwatchImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL30_.jpg</URL><Height
+        Units="pixels">4</Height><Width Units="pixels">30</Width></SwatchImage><SmallImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL75_.jpg</URL><Height
+        Units="pixels">11</Height><Width Units="pixels">75</Width></SmallImage><ThumbnailImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL75_.jpg</URL><Height
+        Units="pixels">11</Height><Width Units="pixels">75</Width></ThumbnailImage><TinyImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL110_.jpg</URL><Height
+        Units="pixels">16</Height><Width Units="pixels">110</Width></TinyImage><MediumImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL._SL160_.jpg</URL><Height
+        Units="pixels">23</Height><Width Units="pixels">160</Width></MediumImage><LargeImage><URL>https://images-na.ssl-images-amazon.com/images/I/21YrgmzzegL.jpg</URL><Height
+        Units="pixels">71</Height><Width Units="pixels">500</Width></LargeImage><HiResImage><URL>https://images-na.ssl-images-amazon.com/images/I/41icml4%2BMTL.jpg</URL><Height
+        Units="pixels">213</Height><Width Units="pixels">1500</Width></HiResImage></ImageSet></ImageSets><ItemAttributes><Binding>Misc.</Binding><Brand>PowerNet</Brand><EAN>0653341833204</EAN><EANList><EANListElement>0653341833204</EANListElement></EANList><Feature>Used
+        and Endorsed by Pro Baseball Players OMAR INFANTE and GORKYS HERNANDEZ</Feature><Feature>The
+        red 5-Inch area represents the optimized "SWEET SPOT" area of the BAT. Features
+        a slim 1.5" body and 2" barrel leaving little room for error.</Feature><Feature>The
+        smaller size forces the hitter''s eyes to work better which results in a more
+        efficient swing.</Feature><Feature>Instant feedback provided after each swing.
+        Feel and hear the off-spot hits, and perfect SWEET SPOT HITS.</Feature><Feature>Choose
+        from 3 Bat Sizes: 27" (24oz), 31" (28oz), 34" (32oz)</Feature><IsAutographed>0</IsAutographed><IsMemorabilia>0</IsMemorabilia><Label>PowerNet</Label><ListPrice><Amount>5999</Amount><CurrencyCode>USD</CurrencyCode><FormattedPrice>$59.99</FormattedPrice></ListPrice><Manufacturer>PowerNet</Manufacturer><MPN>1089</MPN><PackageDimensions><Height
+        Units="hundredths-inches">240</Height><Length Units="hundredths-inches">2760</Length><Weight
+        Units="hundredths-pounds">180</Weight><Width Units="hundredths-inches">250</Width></PackageDimensions><PackageQuantity>1</PackageQuantity><PartNumber>1089</PartNumber><ProductGroup>Sports</ProductGroup><ProductTypeName>SPORTING_GOODS</ProductTypeName><Publisher>PowerNet</Publisher><Size>27
+        Inch - 24 oz</Size><Studio>PowerNet</Studio><Title>PowerNet 27" SweetSpot
+        Training Bat for Baseball Softball</Title><UPC>653341833204</UPC><UPCList><UPCListElement>653341833204</UPCListElement></UPCList></ItemAttributes><CustomerReviews><IFrameURL>https://www.amazon.com/reviews/iframe?akid=AWS_ACCESS_KEY_ID&amp;alinkCode=xm2&amp;asin=B06WP5P93V&amp;atag=AWS_ASSOCIATE_TAG&amp;exp=2017-09-12T12%3A33%3A17Z&amp;v=2&amp;sig=zY79xcqMVQqSy2Iw%252FA1DAZOLYWD1v5NcYAQbf0zfpuU%253D</IFrameURL><HasReviews>true</HasReviews></CustomerReviews></Item></Items></ItemLookupResponse>'
+    http_version: 
+  recorded_at: Mon, 11 Sep 2017 12:33:18 GMT
+- request:
+    method: get
+    uri: https://www.amazon.com/reviews/iframe?akid=AWS_ACCESS_KEY_ID&alinkCode=xm2&asin=B06WP5P93V&atag=AWS_ASSOCIATE_TAG&exp=2017-09-12T12:33:17Z&sig=zY79xcqMVQqSy2Iw%252FA1DAZOLYWD1v5NcYAQbf0zfpuU%253D&v=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - Server
+      Date:
+      - Mon, 11 Sep 2017 12:33:18 GMT
+      Strict-Transport-Security:
+      - max-age=47474747; includeSubDomains; preload
+      X-Amz-Id-1:
+      - AY414AEC2FMK4DB4GT8P
+      P3p:
+      - policyref="https://www.amazon.com/w3c/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo
+        IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM
+        CNT STA HEA PRE LOC GOV OTC "
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 e89c67951b2bc58773e3664c08702f34.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - x_GTukwyVPvQyr_tccpscluRVTX8x7vpdXuAzFdpQU9f5RAtWEwZuQ==
+    body:
+      encoding: ASCII-8BIT
+      string: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<html>\n<head>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<link
+        href='https://images-na.ssl-images-amazon.com/images/G/01/nav2/gamma/websiteGlobalCSS/websiteGlobalCSS-websiteGlobal-10346._V1_.css'
+        type='text/css' rel='stylesheet'>\n<style type=\"text/css\"><!--\n\n.sans,
+        .small, .h1, .h3color, .big, .tiny, .tinyprice, .highlight, .eyebrow,\n    a:active,
+        a:visited, a:link, div.unified_widget p.seeMore,\n    div.unified_widget .carat,
+        div.left_nav .carat, div.left_nav, div.left_nav\n    h2, div.left_nav h3,
+        div.left_nav a:link, div.left_nav a:visited,\n    .popover-tiny, .horizontal-search,
+        .horizontal-websearch, .topnav,\n    .topnav-active a:link, .tabon a, .tabon
+        a:visited, .taboff a, .taboff\n    a:visited div.leftnav_popover h2, .signInMsg{\n
+        \ font-family: verdana,arial,helvetica,sans-serif;\n}\n.listprice {\n  font-family:
+        arial,verdana,helvetica,sans-serif;\n}\n.price {\n  font-family: arial,verdana,helvetica,sans-serif;\n}\n.serif,
+        .sans, .h1, div.unified_widget .headline{\n  font-size: medium;\n}\n.big {\n
+        \ font-size: xx-large;\n}\n.small, .h3color, .highlight, .horizontal-search
+        {\n  font-size: small;\n}\n.signInMsg {\n  font-size: x-small;\n}\n.tiny,
+        .tinyprice, .popover-tiny, .horizontal-websearch {\n  font-size: x-small;\n}\nbody,
+        td, th {\n  font-family: verdana,arial,helvetica,sans-serif;\n  font-size:
+        small;\n}\n.eyebrowBackGroundColor {\n  background-color: ;\n}\ndiv.left_nav,
+        div.left_nav a:link, div.left_nav a:visited {\n  font-family: Arial, sans-serif;\n}\n\nbody
+        {\n  color: #000000;\n  margin-top: 0px;\n}\n--></style> \n\n\n\n\n<style
+        type=\"text/css\"><!--\n\n.crAuthorInfo {\n  font-family:               verdana;\n
+        \ font-size:                 0.86em;\n  margin-left:               80px;\n}\n\n.crAuthorInfoCredibility
+        {\n  font-family:               verdana;\n  font-size:                 0.86em;\n}\n\n.crBlue-bevel
+        {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/sliced-box-tbevel._CB192249888_.gif)
+        repeat-x top;\n  height:                    1.45em;\n}\n\n.crBlueBorder-tl
+        {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/border-box-tl._CB192249923_.gif)
+        no-repeat top left;\n  width:                     1em;\n}\n                                                                                                                                                             \n.crBlueBorder-tc
+        {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/border-box-tc._CB192249922_.gif)
+        repeat-x top;\n}\n                                                                                                                                                             \n.crBlueBorder-tr
+        {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/border-box-tr._CB192249949_.gif)
+        no-repeat top right;\n  width:                     1em;\n}\n                                                                                                                                                             \n.crBlueBorder-bl
+        {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/border-box-bl._CB192249926_.gif)
+        no-repeat bottom left;\n}\n                                                                                                                                                             \n.crBlueBorder-bc
+        {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/border-box-bc._CB192249923_.gif)
+        repeat-x bottom;\n}\n                                                                                                                                                             \n.crBlueBorder-br
+        {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/border-box-br._CB192249923_.gif)
+        no-repeat bottom right;\n}\n\n.crBox {\n  background:                #DFEDF7;\n
+        \ padding:                   0.2em 1.5em 0.2em 1.5em;\n}\n\n.crBox-tl {\n
+        \ background:                #DFEDF7 url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/box-tl._CB192249949_.gif)
+        no-repeat top left;\n}\n\n.crBox-tc {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/box-tc._CB192249950_.gif)
+        repeat-x top;\n}\n\n.crBox-tr {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/box-tr._CB192249948_.gif)
+        no-repeat top right;\n}\n\n.crBox-bl {\n  background:                #DFEDF7
+        url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/box-bl._CB192249921_.gif)
+        no-repeat bottom left;\n}\n\n.crBox-bc {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/box-bc._CB192249923_.gif)
+        repeat-x bottom;\n}\n\n.crBox-br {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/box-br._CB192249949_.gif)
+        no-repeat bottom right;\n}\n\n.crColumnEndMarker {\n  clear:                     both;\n
+        \ height:                    13px;\n  background-image:          url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/people/column-bottom-edge._CB192250335_.gif);\n
+        \ background-repeat:         no-repeat;\n}\n\n.crColumnEndMarker .rightEdge
+        {\n  float:                     right;\n  background-image:          url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/people/column-bottom-edge-right._CB192250334_.gif);\n
+        \ background-position:       right top;\n  background-repeat:         no-repeat;\n
+        \ width:                     13px;\n  height:                    13px;\n}\n\n\n.crCdDotsBottom
+        {\n  clear:                     both;\n  padding:                   1px;;\n
+        \ font-size:                 0.0625em;\n  margin:                    0 0 5px
+        0;\n  background-image:          url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/people/dotborder._CB192250320_.gif);\n
+        \ background-repeat:         repeat-x;\n  background-position:       center;\n}\n\n.crDescription
+        {\n  font-family:               verdana;\n  margin-left:               80px;\n}\n\n\n.crErrorMsg
+        {\n  color:                     red;\n  font-weight:               bold;\n}\n\n.crFanlink
+        {\n  text-decoration: \t     none; \n  border-top-width:          0; \n  border-right-width:
+        \       0; \n  border-bottom-width:       1px;\n  border-left-width:         0;\n
+        \ border-top-color:          #146EB4;\n  border-right-color:        #146EB4;\n
+        \ border-bottom-color:       #146EB4;\n  border-left-color:         #146EB4;\n
+        \ border-top-style:          none;\n  border-right-style:        none;\n  border-bottom-style:
+        \      dashed;\n  border-left-style:         none;\n  color:                     #003399;
+        \n}\n\n.crFinePrint {\n  font-size:                 0.7em;\n  margin-top:
+        \               0.7em;\n}\n\n.crForm {\n  width:                     100%;\n
+        \ display:                   block;\n}\n\n.crHeaderText {\n  color:                     #CC6600;\n
+        \ padding-left:              0;\n  padding-bottom:            5px;\n  font-family:
+        \              helvetica,\n  font-size:                 13px;\n  font-weight:
+        \              bold;\n  float:                     top;\n  float:                     left;\n}\n\nh2.crHeading
+        {\n  color:                     #E47911;\n  font-family:               Verdana,Helvetica,sans-serif;\n
+        \ font-size:                 130%;\n  margin:                    0 0 3px;\n
+        \ padding-left:              0px;\n}\n\nh3.crHeading {\n  color:                     #E47911;\n
+        \ font-family:               Verdana,Helvetica,sans-serif;\n  font-size:                 100%;\n
+        \ margin:                    0 0 10px;\n}\n\n.crHeading {\n  color:                     #c60;\n
+        \ font-family:               sans-serif;\n  font-size:                 1.5em;\n
+        \ font-weight:               bold;\n  padding-bottom:            0.5em;\n
+        \ padding-left:              0.5em;\n}\n\n.crInnerBox {\n  padding:                   0.6em
+        2em 0.6em 2em;\n  background:                #EFF5F9;\n  clear:                     both;\n}\n\n.crInnerBox-tl
+        {\n  background:                #EFF5F9 url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/innerbox-tl._CB192249896_.gif)
+        no-repeat top left;\n  clear: both;\n}\n\n.crInnerBox-tr {\n  background:
+        \               #EFF5F9 url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/innerbox-tr._CB192249895_.gif)
+        no-repeat top right;\n  clear: both;\n}\n\n.crInnerBox-bl {\n  background:
+        \               #EFF5F9 url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/innerbox-bl._CB192249902_.gif)
+        no-repeat bottom left;\n}\n\n.crInnerBox-br {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/innerbox-br._CB192249902_.gif)
+        no-repeat bottom right;\n}\n\n.crInputTitle {\n  font-weight:               bold;\n
+        \ vertical-align:            middle; \n}\n\n.crInputFinePrint {\n  color:
+        \                    #6E6E6E; \n  font-size:                 0.7em;\n  padding-bottom:
+        \           1.5em; \n}\n\n.crInput {\n  padding:                   0em 0em
+        1.5em 0em;\n  vertical-align:            middle;\n}\n\n.crInputFormField {\n
+        \ font-family:               arial, helvetica, sans-serif;\n}\n\n.crInstruction
+        {\n  padding-bottom:            0.4em;\n  float:                     left;\n}\n\n.crProductLinks
+        {\n  padding-bottom:            0.4em;\n  float:                     right;\n
+        \ vertical-align:            top;  \n}\n\n.crLargerTitle {\n  font-family:
+        \              verdana, arial, helvetica, sans-serif;\n  font-size:                 1.6em;\n
+        \ color:                     #c60;\n  padding-bottom:            5px;\n  padding-top:
+        \              10px;\n}\n\n.crLine {\n  clear:                     both;\n
+        \ border:                    0;\n  height:                    2px;\n  color:
+        \                    #CADFE9;\n  background-color:          #CADFE9;\n  noshade:
+        \                  noshade;\n}\n\n.crPrevLeftButton {\n  padding-left:              15px;
+        \n  margin-bottom:             0px;\n}\n\n.crPrevRightButton {\n  margin-bottom:
+        \            0px;\n}\n\n.crPicture {\n  clear:                     both;\n
+        \ float:                     left;\n  text-align:                center;\n
+        \ width:                     80px;\n  overflow:                  hidden;\n
+        \ padding-top:               0.2em;\n}\n\n.crReviewHeader  {\n  font-family:
+        \              Verdana, Arial, Helvetica, sans-serif;\n  font-size:                 1.5em;\n
+        \ font-weight:               bold;\n  color:                     #e47911;\n
+        \ margin-top:                5px;\n}\n\n.crReviewSumBox {\n  height:                    36px;\n
+        \ background-image:          url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/people/column-eyebrow-visitor._CB192250334_.gif);\n
+        \ background-repeat:         no-repeat;\n  font-family:               verdana;\n
+        \ font-size:                 36px;\n}\n\n.crReviewSumBox .titleText {\n  float:
+        \                    left;\n  font-weight:               bold;\n  padding-left:
+        \             10px;\n  padding-top:               10px;\n  font-size:                 13px;\n
+        \ font-family:               verdana;\n  color:                     #000000;\n
+        \ white-space:               nowrap;\n}\n\n.crReviewSumBox .rightEdge {\n
+        \ background-image:          url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/people/column-eyebrow-visitor-right._CB192250335_.gif);\n
+        \ width:                     12px;\n  height:                    36px;\n  background-repeat:
+        \        no-repeat;\n  padding:                   0;\n  float:                     right;\n}\n\n.crSectionTitle
+        {\n  color:                     #E57310;\n  font-size:                 16px;\n
+        \ font-weight:               bold;\n  margin-top:                5px;\n  margin-bottom:
+        \            5px;\n}\n\n.crProductReviewsSummary .crSolicitation {\n  margin-top:
+        \              -20px;\n}\n\n.crSideHeading {\n  color:                     #c60;\n
+        \ font-weight:               bold;\n  text-align:                center;\n
+        \ padding-top:               0.4em;\n}\n\n.crStepNum {\n  vertical-align:
+        \           top;\n  padding:                   0em 0.6em 1.5em 0em;\n}\n\n\n.crTanBorder-tl
+        {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/boxes/boxfill/innerbox-tl._CB192251350_.gif)
+        no-repeat top left;\n  width:                     1em;\n}\n                                                                                                                                                             \n.crTanBorder-tc
+        {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/boxes/boxfill/innerbox-tc._CB192251344_.gif)
+        repeat-x top;\n}\n                                                                                                                                                             \n.crTanBorder-tr
+        {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/boxes/boxfill/innerbox-tr._CB192244553_.gif)
+        no-repeat top right;\n  width:                     1em;\n}\n                                                                                                                                                             \n.crTanBorder-bl
+        {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/boxes/boxfill/innerbox-bl._CB192251348_.gif)
+        no-repeat bottom left;\n}\n                                                                                                                                                             \n.crTanBorder-bc
+        {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/boxes/boxfill/innerbox-bc._CB192241903_.gif)
+        repeat-x bottom;\n}\n                                                                                                                                                             \n.crTanBorder-br
+        {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/boxes/boxfill/innerbox-br._CB192241895_.gif)
+        no-repeat bottom right;\n}\n\n.crTextAreaHeader {\n  background:                #B6CFE5;\n
+        \ padding:                   0.4em 0em 0.4em 0em;\n  width:                     620px;\n}\n\n.crTextTab
+        {\n  width:                     30%;\n  float:                     left;\n
+        \ white-space:               nowrap;\n}\n\n.crTextTabHeading {\n  padding:
+        \                  0.3em 0 0.7em 0.6em;\n}\n\n.crThreadHeader {\n  color:
+        \                    #CC6600;\n  font-weight:               bold;\n  float:
+        \                    left;\n}\n\n.crTipsBoxHeader {\n  font-size:                 0.90em;\n
+        \ font-weight:               bold;\n  margin-bottom:             10px;\n  margin-top:
+        \               10px;\n}\n\n.crTipsBoxTitle {\n  color:                     #CC6600;\n
+        \ font-size:                 1.1em;\n  font-weight:               bold;\n
+        \ margin-bottom:             10px;\n}\n\nh1.crTitle {\n  color:                     #E47911;\n
+        \ font-family:               Arial, Helvetica, sans-serif;\n  font-size:                 218%;\n
+        \ letter-spacing:            -0.03em;\n  margin:                    0;\n  padding:
+        \                  0;\n}\n\n.crTitle {\n  font-family:               verdana,
+        arial, helvetica, sans-serif;\n  font-size:                 1.4em;\n  font-weight:
+        \              bold;\n}\n\n.crTab-tl {\n  background:                #EFF5F9
+        url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/innerbox-tl._CB192249896_.gif)
+        no-repeat top left;\n}\n\n.crTab-tr {\n  background:                url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/innerbox-tr._CB192249895_.gif)
+        no-repeat top right;\n}\n\n.crVideoUpload {\n  background:                #FFFFFF;\n
+        \ border:                    0.1em solid #7F9DB9;\n  text-align:                center;\n
+        \ padding:                   0.4em;\n}\n\n.crVidTab {\n  width:                     70%;\n
+        \ float:                     left;\n  white-space:               nowrap;\n}\n\n.crVidTabHeading
+        {\n  padding:                   0.3em 0 0.7em 0.6em;\n}\n\ntable.crDataGrid
+        th {\n  background-color:          #EEEEEE;\n  font-weight:               normal;\n
+        \ font-size:                 70%;\n  text-align:                left;\n  color:
+        \                    #666666;\n}\n\ntable.crDataGrid td {\n  border-bottom:
+        \           1px solid #CCCCCC;\n}\n\ntable.crDataGrid .img {\n  height:                   92px;\n}\n\ntable.crDataGrid
+        .crNum {\n  text-align:               right;\n}\n\ntable.crDataGrid .crNumPercentHelpful
+        {\n  text-align:               right;\n  padding-right:20px;\n}\n\ntable.crDataGrid
+        .crNumFanVoters {\n  text-align:               right;\n  border-left: solid
+        1px #cccccc;\n}\n\nul.crBigBullet {\n  margin:                    0em;\n  padding:
+        \                  0em;\n  list-style-image:          url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/big-bullet._CB192249925_.gif);\n}\n\nul.crSmallBullet
+        {\n\n  padding-left:              0;\n  margin:                    0.4em 0em
+        0.6em 1.5em;\n  list-style-image:          url(https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/small-bullet._CB192249889_.gif);\n}\n\n\n.srCreateReview
+        td.name {\n  padding-left: 9px;\n}\n\n.srCreateReview .srPopoverList table.srList
+        td a {\n  margin-left: 0px;\n}\n\n.srCreateReview .srPopoverList table.srList
+        td.name span.newAttribute {\n  margin-left: 0px;\n  color:       #000000;\n}\n\n.srCreateReview
+        .srPopoverFooter {\n  padding-left: 9px;\n  padding-top:  9px;\n}\n\n.srCreateReview
+        .srPopoverContentSection .heading {\n  font-weight: normal;\n}\n\n#structuredRatingsList
+        .cBox {\n  width: 375px;\n}\n\n.structuredRatingsVisibilityLink {\n  line-height:
+        2.5em;\n  font-size: 0.86em;\n}\n\n.structuredRatingsVisibilityLinkText {\n
+        \ margin-left: 5px;\n}\n\n#structuredRatingsListHelp {\n  font-size: 0.86em;\n
+        \ font-weight: normal;\n}\n\n#structuredRatingsList .srpopover .scrollSection
+        {\n  height: 210px;\n}\n\n.crVerifiedNew {\n  font-size: 0.86em;\n  font-weight:
+        bold;\n  color: #009900;\n  margin-right: 0.5em;\n} \n\n.crVerifyLearnMore
+        {\n  margin-left: 0.5em;\n}\n\n.crVerifiedPurchaseInputs {\n  display: block;\n
+        \ margin-bottom: 1em;\n}\n\ndiv.crCommentThread .cmPage {\n  margin-left:
+        5px;\n}\n\ndiv#cdNonReplyPostBoxButton {\n  margin-bottom: 40px;\n}\n\n#rdpItemInfo
+        .crAvgStars {\n  font-size: 10px;\n}\n\n.crIneligibleHeader {\n  padding:
+        15px 9px 0 6px;\n  color:                     #E47911;\n  font-weight: \t
+        \            bold;\n  font-size:                 218%;\n  margin:                    0;\n}\n\n.crIneligibleMessage
+        {\n  font-size: 12px;\n  border: solid 1px #0071B5;\n  position: relative;\n
+        \ background-color: #ffffdd;\n  border-color: #E47911;\n  padding: 18px 50px
+        18px 20px;\n  margin: 10px 0 40px 10px;\n}\n.crIneligibleMessageImage {\n
+        \ position: absolute;\n}\n.crIneligibleMessageHeader {\n  font-size: 18px;\n
+        \ font-weight: bold;\n  margin: 0 0 4px 45px;\n  padding: 0;\n}\n.crIneligibleMessageText
+        {\n  font-size:13px;\n  margin: 0 0 6px 45px;\n  width: 100%;\n}\n\n\n.crIFrame
+        {\n  margin: 10px;\n}\n\n.crIFrameLogo {\n  margin-bottom: 20px;\n}\n\n.crIFrameHeaderLeftColumn
+        {\n  float: left;\n  margin-right: 20px;\n}\n\n.crIFrameHeaderTitle {\n  font-size:
+        \     24px;\n  letter-spacing: -1px;\n}\n\n.crIFrameHeaderHistogram {\n  float:
+        left;\n}\n\n.crIFrameError {\n  border-top:    1px solid #D1E6F7;\n  border-bottom:
+        1px solid #D1E6F7;\n\n  text-align:          center;\n  line-height:         24px;\n
+        \ width:               360px;\n  padding:             20px;\n  margin-top:
+        \         20px;\n}\n\n.crIFrameErrorText {\n  font-size:  14px;\n  font-weight:
+        bold;\n}\n\n.crIFrameCreateReview {\n  margin-bottom:   3px;\n  white-space:
+        \    nowrap;\n}\n\n.crIFrameCreateReviewButton {\n  vertical-align:  middle;\n}\n\n.crIFrameAverageReviewText
+        {\n  align: left;\n  font-weight: bold;\n}\n\n.crIFrameNumCustReviews {\n
+        \  white-space: nowrap;\n}\n\n.crIFrameReviewList {\n  width: 100%;\n  clear:
+        left;\n}\n\n\n.CMheadingBar {\n  background:url(https://images-na.ssl-images-amazon.com/images/G/01/nav2/images/gui/tile-blue-bg._CB46870869_.gif)
+        repeat-x;\n  border-top:1px solid #BADAE8;\n  border-bottom:1px solid #BADAE8;\n
+        \ padding:6px;\n}\n\n.CMpaginate {\n  color:#666;\n}\n\n.CMpaginate .on {\n
+        \ border:1px solid #CC6600;\n  padding:3px;\n  background-color:white;\n  color:#CC6600;\n
+        \ text-decoration:none;\n}\n\n.CMpaginate a:link,\n.CMpaginate a:visited {\n
+        \ padding:4px;\n  text-decoration:none;\n}\n\n.CMpaginate a:hover {\n  padding:3px;\n
+        \ background-color:white;\n  border:1px solid #CC6600;\n  color:#CC6600;\n}\n\na.areaLink,
+        a.areaLink:visited {\n  text-decoration: none;\n  color: black;\n  display:
+        block;\n}\n\n.areaLink .innerLink {\n  white-space: nowrap;\n  text-decoration:
+        underline;\n  color: #039;\n}\n\ndiv.crVS {\n  width:       46%;\n  text-align:
+        \ center;\n  white-space: nowrap;\n}\n\n.crClear { clear: both; }\n.crLeft
+        { float: left; }\n.crRight { float: right; }\n\n.attr-sheet { padding-left:5px;
+        }\n.attr-sheet ul { margin-left: 31px; padding: 0; list-style: none; border:
+        solid 1px #eee; border-radius: 5px; }\n.attr-sheet ul li { padding: 5px; }\n.attr-sheet
+        li.alt { background: #F8F5D8 }\n.attr-sheet li .label { font-weight: bold
+        }\n.attr-sheet li .vm { vertical-align: middle; }\n.attr-sheet li .option-line
+        { width: 100%; line-height: 1.75em; }\n.attr-sheet li .option-line .label
+        { float: left; width: 35%; max-width: 300px }\n.attr-sheet li .option-line
+        .option { float: left; width: 30%; max-width: 200px }\n.attr-sheet li .option-undo
+        { float: right; font-size: xx-small; display:none; }\n.attr-sheet li .textbar-text
+        { margin-top: 2px; clear: both; }\n.attr-sheet li .textbar .empty { width:
+        35%; max-width: 300px; float:left; }\n.attr-sheet li .textbar input { width:
+        50%; margin-left:5px; float:left; }\n.attr-sheet li .textbar .blur { color:
+        #999; }\n.attr-preview .boldLabel { font-weight: bold }\n.attr-preview .head
+        { padding: 20px 0 0 25px }\n.attr-preview .head-detail { padding-top: 5px
+        }\n.attr-preview .line { padding: 5px 0 15px 0 }\n.attr-preview .lines { padding:
+        10px 0 0 25px }\n\n.rypWgtDiv { margin-bottom: 20px; }\n\n.rypWgtImgLink {
+        \n    display: block;\n    width: 300px;\n    height: 97px;\n    background:
+        url('https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/ryp-page-image2sprite._CB399712482_.png')
+        top;\n    text-indent: -10000px;\n}\n.rypWgtImgLink:hover {\n\tbackground-position:
+        bottom;\n} \n\n--></style>\n\n<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, NOFOLLOW\">\n</head>\n<body>\n<div
+        class=\"crIFrame\">\n  \n  \n  \n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+        \ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n
+        \ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n
+        \ \n\n\n\n\n\n\n\n\n\n\n\n<div class=\"crIFrameLogo\">\n  <a href=\"/?ie=UTF8&amp;linkCode=xm2&amp;tag=AWS_ASSOCIATE_TAG\"
+        target=\"_top\"><img src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/amazon-logo-tiny._CB192256679_.gif\"
+        width=\"113\" alt=\"Amazon.com\" height=\"23\" border=\"0\" /></a>\n</div>\n\n\n
+        \     <div>\n        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<div
+        class=\"crIFrameHeaderLeftColumn\">\n  <div class=\"crIFrameHeaderTitle\">Customer
+        reviews</div>\n  <div class=\"crIFrameAverageReviewText\">\n    Average Customer
+        Review\n  </div>\n  <div class=\"crIFrameNumCustReviews\">\n    <span class=\"crAvgStars\"
+        style=\"white-space:no-wrap;\"><span class=\"asinReviewsSummary\" name=\"B06WP5P93V\"
+        ref=\"cm_cr_if_acr_cm_cr_acr_pop_\" getargs=\"{&quot;tag&quot;:&quot;AWS_ASSOCIATE_TAG&quot;,&quot;linkCode&quot;:&quot;xm2&quot;}\">\n
+        \            <a href=\"https://www.amazon.com/PowerNet-SweetSpot-Training-Baseball-Softball/product-reviews/B06WP5P93V\"
+        target=\"_top\"><img src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/customer-reviews/ratings/stars-5-0._CB192240943_.gif\"
+        width=\"55\" alt=\"5.0 out of 5 stars\" align=\"absbottom\" title=\"5.0 out
+        of 5 stars\" height=\"12\" border=\"0\" /></a>&nbsp;</span>(<a href=\"https://www.amazon.com/PowerNet-SweetSpot-Training-Baseball-Softball/product-reviews/B06WP5P93V\"
+        target=\"_top\">4 customer reviews</a>)</span>\n  </div>\n</div>\n<div class=\"crIFrameHeaderHistogram\">\n
+        \ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<div style=\"display:block; text-align:center;
+        padding-bottom: 5px;\" class=\"tiny\">\n  <b>4 Reviews</b>\n</div>\n\n<div
+        style=\"font-size: 11px; white-space:no-wrap; line-height:15px; font-family:
+        arial,helvetica,sans-serif!important;\" class=\"txtsmaller histogramPPD\">\n
+        \   <div class=\"histoRowfive\" title=\"5 stars represent 100% of rating\">\n
+        \       <div class=\"histoRating\" style=\"padding-right: 10px; float: left;
+        color: #999999; font-family: arial,helvetica,sans-serif!important;\">5 star</div>\n
+        \     <div class=\"histoFullBar\" style=\"width:60px; background-color:#f4f4cf;
+        overflow: hidden; float: left; margin-right:1px;\">\n        <div class=\"histoRatingBar\"
+        style=\"background-color:#ffcc66; height:14px; width:60px; border: 0;\"></div>\n
+        \     </div>\n        <div class=\"histoCount\" style=\"text-decoration: none;
+        float:left; color: #999999; padding-left:10px; font-family: arial,helvetica,sans-serif!important;\">100%</div>\n
+        \   </div>\n    </br>\n    <div class=\"histoRowfour\" title=\"4 stars represent
+        0% of rating\">\n        <div class=\"histoRating\" style=\"padding-right:
+        10px; float: left; color: #999999; font-family: arial,helvetica,sans-serif!important;\">4
+        star</div>\n      <div class=\"histoFullBar\" style=\"width:60px; background-color:#f4f4cf;
+        overflow: hidden; float: left; margin-right:1px;\">\n        <div class=\"histoRatingBar\"
+        style=\"background-color:#ffcc66; height:14px; width:0px; border: 0;\"></div>\n
+        \     </div>\n        <div class=\"histoCount\" style=\"text-decoration: none;
+        float:left; color: #999999; padding-left:10px; font-family: arial,helvetica,sans-serif!important;\">0%</div>\n
+        \   </div>\n    </br>\n    <div class=\"histoRowthree\" title=\"3 stars represent
+        0% of rating\">\n        <div class=\"histoRating\" style=\"padding-right:
+        10px; float: left; color: #999999; font-family: arial,helvetica,sans-serif!important;\">3
+        star</div>\n      <div class=\"histoFullBar\" style=\"width:60px; background-color:#f4f4cf;
+        overflow: hidden; float: left; margin-right:1px;\">\n        <div class=\"histoRatingBar\"
+        style=\"background-color:#ffcc66; height:14px; width:0px; border: 0;\"></div>\n
+        \     </div>\n        <div class=\"histoCount\" style=\"text-decoration: none;
+        float:left; color: #999999; padding-left:10px; font-family: arial,helvetica,sans-serif!important;\">0%</div>\n
+        \   </div>\n    </br>\n    <div class=\"histoRowtwo\" title=\"2 stars represent
+        0% of rating\">\n        <div class=\"histoRating\" style=\"padding-right:
+        10px; float: left; color: #999999; font-family: arial,helvetica,sans-serif!important;\">2
+        star</div>\n      <div class=\"histoFullBar\" style=\"width:60px; background-color:#f4f4cf;
+        overflow: hidden; float: left; margin-right:1px;\">\n        <div class=\"histoRatingBar\"
+        style=\"background-color:#ffcc66; height:14px; width:0px; border: 0;\"></div>\n
+        \     </div>\n        <div class=\"histoCount\" style=\"text-decoration: none;
+        float:left; color: #999999; padding-left:10px; font-family: arial,helvetica,sans-serif!important;\">0%</div>\n
+        \   </div>\n    </br>\n    <div class=\"histoRowone\" title=\"1 stars represent
+        0% of rating\">\n        <div class=\"histoRating\" style=\"padding-right:
+        10px; float: left; color: #999999; font-family: arial,helvetica,sans-serif!important;\">1
+        star</div>\n      <div class=\"histoFullBar\" style=\"width:60px; background-color:#f4f4cf;
+        overflow: hidden; float: left; margin-right:1px;\">\n        <div class=\"histoRatingBar\"
+        style=\"background-color:#ffcc66; height:14px; width:0px; border: 0;\"></div>\n
+        \     </div>\n        <div class=\"histoCount\" style=\"text-decoration: none;
+        float:left; color: #999999; padding-left:10px; font-family: arial,helvetica,sans-serif!important;\">0%</div>\n
+        \   </div>\n    </br>\n</div>\n<div style=\"margin-bottom:10px;\"></div>\n\n</div>\n\n\n
+        \     </div>    \n      <div class=\"crIframeReviewList\">\n        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table
+        class=\"crIFrameReviewList\">\n<tr>\n  <td>\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+        \   \n    \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!--
+        BOUNDARY -->\n<a name=\"R2QU112P8OQTV3\"></a><br />\n\n\n<div style=\"margin-left:0.5em;\">\n
+        \   \n      <div style=\"margin-bottom:0.5em;\">\n        <span style='margin-left:
+        -5px;'><img src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/customer-reviews/stars-5-0._CB192240867_.gif\"
+        width=\"64\" alt=\"5.0 out of 5 stars\" title=\"5.0 out of 5 stars\" height=\"12\"
+        border=\"0\" /> </span>\n        <b>Great practice tool</b>, <nobr>August
+        15, 2017</nobr>\n      </div>\n      <div style=\"margin-bottom:0.5em;\">\n
+        \       <div><div style=\"float:left;\">By&nbsp;</div><div style=\"float:left;\"><a
+        href=\"https://www.amazon.com/gp/pdp/profile/A1ID6F8HPTT1YE?ie=UTF8&linkCode=xm2&tag=AWS_ASSOCIATE_TAG\"
+        target=\"_top\"><span style = \"font-weight: bold;\">Amazon Customer</span></a>
+        \ - <a href=\"https://www.amazon.com/gp/cdp/member-reviews/A1ID6F8HPTT1YE?ie=UTF8&amp;linkCode=xm2&amp;sort_by=MostRecentReview&amp;tag=AWS_ASSOCIATE_TAG\"
+        target=\"_top\">See all my reviews</a></div></div><div style=\"clear:both;\"></div>\n
+        \     </div>\n      <div class=\"tiny\" style=\"margin-bottom:0.5em;\">\n
+        \       <span class=\"crVerifiedStripe\"><b class=\"h3color tiny\" style=\"margin-right:
+        0.5em;\">Verified Purchase</b><span class=\"tiny verifyWhatsThis\">(<a href=\"https://www.amazon.com/gp/community-help/amazon-verified-purchase\"
+        target=\"AmazonHelp\" >What's this?</a>)</span></span>\n      </div>\n      <div
+        class=\"tiny\" style=\"margin-bottom:0.5em;\">\n        <b><span class=\"h3color
+        tiny\">This review is from: </span><a href=\"https://www.amazon.com/PowerNet-SweetSpot-Training-Baseball-Softball/dp/B06VVWCL2S\"
+        target=\"_top\">PowerNet Sweet Spot Training Bat for Baseball Softball (Misc.)</a></b>\n
+        \     </div>\n\n<div class=\"reviewText\">This powernet Sweet Spot Bat is
+        an excellent tool to be added to any coaches arsenal. The bat has dramatically
+        improved team members batting confidence.This bat is very durable and made
+        for daily practice. With daily practice it has helped with hand eye coordination
+        to be able to put the bat on the sweet spot everytime.</div>\n      <div style=\"padding-top:
+        10px; clear: both; width: 100%;\">\n\n  \n\n\n\n\n        <div class=\"reviews-voting-stripe\"
+        style=\"float:left; padding-right:15px; border-right:1px solid #CCCCCC\"><div
+        style=\"padding-bottom:5px;\"><b class=\"tiny\" style=\"color:#666666;white-space:nowrap;\">Help
+        other customers find the most helpful reviews</b>&nbsp;</div><div style=\"width:300px;\">\n\n\n\n\n\n\n\n\n\n\n<a
+        name=\"R2QU112P8OQTV3.2115.Helpful.Reviews\" style=\"font-size:1px;\"> </a><span\nclass=\"crVotingButtons\"><nobr><span
+        class=\"votingPrompt\">Was this review helpful to you?&nbsp;</span><a rel=\"nofollow\"
+        class=\"votingButtonReviews yesButton\" href=\"https://www.amazon.com/gp/voting/cast/Reviews/2115/R2QU112P8OQTV3/Helpful/1?ie=UTF8&target=aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9wcm9kdWN0LXJldmlld3MvQjA2V1A1UDkzVj9fZW5jb2Rpbmc9VVRGOCZha2lkPUFLSUFKRlY1T1k1U01HTlNBT0hRJmFsaW5rQ29kZT14bTImYXNpbj1CMDZXUDVQOTNWJmF0YWc9cmFuZG9tVGFnJmV4cD0yMDE3LTA5LTEyVDEyJTNBMzMlM0ExN1ombGlua0NvZGU9eG0yJnNpZz16WTc5eGNxTVZRcVN5Mkl3JTI1MkZBMURBWk9MWVdEMXY1TmNZQVFiZjB6ZnB1VSUyNTNEJnRhZz1yYW5kb21UYWcmdj0y&token=CB69508A85A472DF8388A848A4D631001CF40D57&voteAnchorName=R2QU112P8OQTV3.2115.Helpful.Reviews&voteSessionID=000-0000000-0000000\"><img
+        src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/btn-yes-sec-md._CB192249951_.gif\"
+        width=\"35\" alt=\"Yes\" style=\"vertical-align:middle;\" height=\"18\" border=\"0\"
+        /></a>\n<a rel=\"nofollow\" class=\"votingButtonReviews noButton\" href=\"https://www.amazon.com/gp/voting/cast/Reviews/2115/R2QU112P8OQTV3/Helpful/-1?ie=UTF8&target=aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9wcm9kdWN0LXJldmlld3MvQjA2V1A1UDkzVj9fZW5jb2Rpbmc9VVRGOCZha2lkPUFLSUFKRlY1T1k1U01HTlNBT0hRJmFsaW5rQ29kZT14bTImYXNpbj1CMDZXUDVQOTNWJmF0YWc9cmFuZG9tVGFnJmV4cD0yMDE3LTA5LTEyVDEyJTNBMzMlM0ExN1ombGlua0NvZGU9eG0yJnNpZz16WTc5eGNxTVZRcVN5Mkl3JTI1MkZBMURBWk9MWVdEMXY1TmNZQVFiZjB6ZnB1VSUyNTNEJnRhZz1yYW5kb21UYWcmdj0y&token=4C20567224E85B74A97D998D2FB9F01B19E108CC&voteAnchorName=R2QU112P8OQTV3.2115.Helpful.Reviews&voteSessionID=000-0000000-0000000\"><img
+        src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/btn-no-sec-md._CB192249949_.gif\"
+        width=\"35\" alt=\"No\" style=\"vertical-align:middle;\" height=\"18\" border=\"0\"
+        /></a></nobr> <span class=\"votingMessage\"></span></span>\n\n</div></div><div
+        style=\"float:left;\"><div style=\"padding-left:15px;\"><div style=\"white-space:nowrap;\"><span
+        class='tiny'>\n\n\n\n\n\n\n\n\n<a name=\"R2QU112P8OQTV3.2115.Inappropriate.Reviews\"
+        style=\"font-size:1px;\"> </a><span class=\"reportingButton\"><nobr><a rel=\"nofollow\"
+        class=\"reportingButton\" href=\"https://www.amazon.com/gp/voting/cast/Reviews/2115/R2QU112P8OQTV3/Inappropriate/1?ie=UTF8&target=aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9wcm9kdWN0LXJldmlld3MvQjA2V1A1UDkzVj9fZW5jb2Rpbmc9VVRGOCZha2lkPUFLSUFKRlY1T1k1U01HTlNBT0hRJmFsaW5rQ29kZT14bTImYXNpbj1CMDZXUDVQOTNWJmF0YWc9cmFuZG9tVGFnJmV4cD0yMDE3LTA5LTEyVDEyJTNBMzMlM0ExN1ombGlua0NvZGU9eG0yJnNpZz16WTc5eGNxTVZRcVN5Mkl3JTI1MkZBMURBWk9MWVdEMXY1TmNZQVFiZjB6ZnB1VSUyNTNEJnRhZz1yYW5kb21UYWcmdj0y&token=1DC21E8C005F6EBC5941677313C23AFAA971DA28&voteAnchorName=R2QU112P8OQTV3.2115.Inappropriate.Reviews&voteSessionID=000-0000000-0000000\"\n>Report
+        abuse</a></nobr></span>\n</span> <span style=\"color:#CCCCCC;\">|</span> <span
+        class=\"tiny\"><a href=\"https://www.amazon.com/review/R2QU112P8OQTV3\" target=\"_top\">Permalink</a></span></div><div
+        style=\"white-space:nowrap;padding-left:-5px;padding-top:5px;\"><a href=\"https://www.amazon.com/review/R2QU112P8OQTV3\"
+        target=\"_top\"><img src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/discussion_boards/comment-sm._CB192250344_.gif\"
+        width=\"16\" alt=\"Comment\" hspace=\"3\" align=\"absmiddle\" height=\"16\"
+        border=\"0\" /></a>&nbsp;<a href=\"https://www.amazon.com/review/R2QU112P8OQTV3\"
+        target=\"_top\">Comment</a></div></div></div><div style=\"clear:both;\"></div>\n
+        \     </div>\n      <br />\n\n</div>\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!--
+        BOUNDARY -->\n<a name=\"R27FED4JD0TB3Y\"></a><br />\n\n\n<div style=\"margin-left:0.5em;\">\n
+        \   \n      <div style=\"margin-bottom:0.5em;\">\n        1 of 1 people found
+        the following review helpful\n      </div>\n      <div style=\"margin-bottom:0.5em;\">\n
+        \       <span style='margin-left: -5px;'><img src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/customer-reviews/stars-5-0._CB192240867_.gif\"
+        width=\"64\" alt=\"5.0 out of 5 stars\" title=\"5.0 out of 5 stars\" height=\"12\"
+        border=\"0\" /> </span>\n        <b>which for training purposes really makes
+        the hitter work on not only finding the sweet spot, but being more precise
+        with the pro</b>, <nobr>March 14, 2017</nobr>\n      </div>\n      <div style=\"margin-bottom:0.5em;\">\n
+        \       <div><div style=\"float:left;\">By&nbsp;</div><div style=\"float:left;\"><a
+        href=\"https://www.amazon.com/gp/pdp/profile/A2BNXGNQXPF9TQ?ie=UTF8&linkCode=xm2&tag=AWS_ASSOCIATE_TAG\"
+        target=\"_top\"><span style = \"font-weight: bold;\">Bobby</span></a>  - <a
+        href=\"https://www.amazon.com/gp/cdp/member-reviews/A2BNXGNQXPF9TQ?ie=UTF8&amp;linkCode=xm2&amp;sort_by=MostRecentReview&amp;tag=AWS_ASSOCIATE_TAG\"
+        target=\"_top\">See all my reviews</a></div></div><div style=\"clear:both;\"></div>\n
+        \     </div>\n      <div class=\"tiny\" style=\"margin-bottom:0.5em;\">\n
+        \       <span class=\"crVerifiedStripe\"><b class=\"h3color tiny\" style=\"margin-right:
+        0.5em;\">Verified Purchase</b><span class=\"tiny verifyWhatsThis\">(<a href=\"https://www.amazon.com/gp/community-help/amazon-verified-purchase\"
+        target=\"AmazonHelp\" >What's this?</a>)</span></span>\n      </div>\n      <div
+        class=\"tiny\" style=\"margin-bottom:0.5em;\">\n        <b><span class=\"h3color
+        tiny\">This review is from: </span><a href=\"https://www.amazon.com/PowerNet-SweetSpot-Training-Baseball-Softball/dp/B06VVWCL2S\"
+        target=\"_top\">PowerNet Sweet Spot Training Bat for Baseball Softball (Misc.)</a></b>\n
+        \     </div>\n\n<div class=\"reviewText\">I use the SweetSpot bat with the
+        Powernet Micro Heavy Balls and the 7x7 Golf net.  This bat is very durable
+        and really focuses on being able to find the barrel aka (sweet spot) at contact.
+        \ It is smaller diameter wise compared to the regular sized bats, which for
+        training purposes really makes the hitter work on not only finding the sweet
+        spot, but being more precise with the process.  I see very dramatic improvements
+        of barrel awareness and squaring regular balls up off of a regular sized bat
+        after training with the SweetSpot Training bat.  Awesome product Power Net!</div>\n
+        \     <div style=\"padding-top: 10px; clear: both; width: 100%;\">\n\n  \n\n\n\n\n
+        \       <div class=\"reviews-voting-stripe\" style=\"float:left; padding-right:15px;
+        border-right:1px solid #CCCCCC\"><div style=\"padding-bottom:5px;\"><b class=\"tiny\"
+        style=\"color:#666666;white-space:nowrap;\">Help other customers find the
+        most helpful reviews</b>&nbsp;</div><div style=\"width:300px;\">\n\n\n\n\n\n\n\n\n\n<a
+        name=\"R27FED4JD0TB3Y.2115.Helpful.Reviews\" style=\"font-size:1px;\"> </a><span\nclass=\"crVotingButtons\"><nobr><span
+        class=\"votingPrompt\">Was this review helpful to you?&nbsp;</span><a rel=\"nofollow\"
+        class=\"votingButtonReviews yesButton\" href=\"https://www.amazon.com/gp/voting/cast/Reviews/2115/R27FED4JD0TB3Y/Helpful/1?ie=UTF8&target=aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9wcm9kdWN0LXJldmlld3MvQjA2V1A1UDkzVj9fZW5jb2Rpbmc9VVRGOCZha2lkPUFLSUFKRlY1T1k1U01HTlNBT0hRJmFsaW5rQ29kZT14bTImYXNpbj1CMDZXUDVQOTNWJmF0YWc9cmFuZG9tVGFnJmV4cD0yMDE3LTA5LTEyVDEyJTNBMzMlM0ExN1ombGlua0NvZGU9eG0yJnNpZz16WTc5eGNxTVZRcVN5Mkl3JTI1MkZBMURBWk9MWVdEMXY1TmNZQVFiZjB6ZnB1VSUyNTNEJnRhZz1yYW5kb21UYWcmdj0y&token=39759E131C33A9E2717DA8221EF20E3E05E906BC&voteAnchorName=R27FED4JD0TB3Y.2115.Helpful.Reviews&voteSessionID=000-0000000-0000000\"><img
+        src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/btn-yes-sec-md._CB192249951_.gif\"
+        width=\"35\" alt=\"Yes\" style=\"vertical-align:middle;\" height=\"18\" border=\"0\"
+        /></a>\n<a rel=\"nofollow\" class=\"votingButtonReviews noButton\" href=\"https://www.amazon.com/gp/voting/cast/Reviews/2115/R27FED4JD0TB3Y/Helpful/-1?ie=UTF8&target=aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9wcm9kdWN0LXJldmlld3MvQjA2V1A1UDkzVj9fZW5jb2Rpbmc9VVRGOCZha2lkPUFLSUFKRlY1T1k1U01HTlNBT0hRJmFsaW5rQ29kZT14bTImYXNpbj1CMDZXUDVQOTNWJmF0YWc9cmFuZG9tVGFnJmV4cD0yMDE3LTA5LTEyVDEyJTNBMzMlM0ExN1ombGlua0NvZGU9eG0yJnNpZz16WTc5eGNxTVZRcVN5Mkl3JTI1MkZBMURBWk9MWVdEMXY1TmNZQVFiZjB6ZnB1VSUyNTNEJnRhZz1yYW5kb21UYWcmdj0y&token=E2B9CD2CA733FE72D0E95B3DD6C3B7E98DCCD18A&voteAnchorName=R27FED4JD0TB3Y.2115.Helpful.Reviews&voteSessionID=000-0000000-0000000\"><img
+        src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/btn-no-sec-md._CB192249949_.gif\"
+        width=\"35\" alt=\"No\" style=\"vertical-align:middle;\" height=\"18\" border=\"0\"
+        /></a></nobr> <span class=\"votingMessage\"></span></span>\n\n</div></div><div
+        style=\"float:left;\"><div style=\"padding-left:15px;\"><div style=\"white-space:nowrap;\"><span
+        class='tiny'>\n\n\n\n\n\n\n\n\n<a name=\"R27FED4JD0TB3Y.2115.Inappropriate.Reviews\"
+        style=\"font-size:1px;\"> </a><span class=\"reportingButton\"><nobr><a rel=\"nofollow\"
+        class=\"reportingButton\" href=\"https://www.amazon.com/gp/voting/cast/Reviews/2115/R27FED4JD0TB3Y/Inappropriate/1?ie=UTF8&target=aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9wcm9kdWN0LXJldmlld3MvQjA2V1A1UDkzVj9fZW5jb2Rpbmc9VVRGOCZha2lkPUFLSUFKRlY1T1k1U01HTlNBT0hRJmFsaW5rQ29kZT14bTImYXNpbj1CMDZXUDVQOTNWJmF0YWc9cmFuZG9tVGFnJmV4cD0yMDE3LTA5LTEyVDEyJTNBMzMlM0ExN1ombGlua0NvZGU9eG0yJnNpZz16WTc5eGNxTVZRcVN5Mkl3JTI1MkZBMURBWk9MWVdEMXY1TmNZQVFiZjB6ZnB1VSUyNTNEJnRhZz1yYW5kb21UYWcmdj0y&token=CB64CAB707E8E9D2FE4D68C35DFF298236C7E086&voteAnchorName=R27FED4JD0TB3Y.2115.Inappropriate.Reviews&voteSessionID=000-0000000-0000000\"\n>Report
+        abuse</a></nobr></span>\n</span> <span style=\"color:#CCCCCC;\">|</span> <span
+        class=\"tiny\"><a href=\"https://www.amazon.com/review/R27FED4JD0TB3Y\" target=\"_top\">Permalink</a></span></div><div
+        style=\"white-space:nowrap;padding-left:-5px;padding-top:5px;\"><a href=\"https://www.amazon.com/review/R27FED4JD0TB3Y\"
+        target=\"_top\"><img src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/discussion_boards/comment-sm._CB192250344_.gif\"
+        width=\"16\" alt=\"Comment\" hspace=\"3\" align=\"absmiddle\" height=\"16\"
+        border=\"0\" /></a>&nbsp;<a href=\"https://www.amazon.com/review/R27FED4JD0TB3Y\"
+        target=\"_top\">Comment</a></div></div></div><div style=\"clear:both;\"></div>\n
+        \     </div>\n      <br />\n\n</div>\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!--
+        BOUNDARY -->\n<a name=\"R3M5Y6NL0QJTMY\"></a><br />\n\n\n<div style=\"margin-left:0.5em;\">\n
+        \   \n      <div style=\"margin-bottom:0.5em;\">\n        1 of 1 people found
+        the following review helpful\n      </div>\n      <div style=\"margin-bottom:0.5em;\">\n
+        \       <span style='margin-left: -5px;'><img src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/customer-reviews/stars-5-0._CB192240867_.gif\"
+        width=\"64\" alt=\"5.0 out of 5 stars\" title=\"5.0 out of 5 stars\" height=\"12\"
+        border=\"0\" /> </span>\n        <b>Hitting Dingers</b>, <nobr>August 20,
+        2017</nobr>\n      </div>\n      <div style=\"margin-bottom:0.5em;\">\n        <div><div
+        style=\"float:left;\">By&nbsp;</div><div style=\"float:left;\"><a href=\"https://www.amazon.com/gp/pdp/profile/A3UEIF3R46OAU4?ie=UTF8&linkCode=xm2&tag=AWS_ASSOCIATE_TAG\"
+        target=\"_top\"><span style = \"font-weight: bold;\">Josh P.</span></a>  -
+        <a href=\"https://www.amazon.com/gp/cdp/member-reviews/A3UEIF3R46OAU4?ie=UTF8&amp;linkCode=xm2&amp;sort_by=MostRecentReview&amp;tag=AWS_ASSOCIATE_TAG\"
+        target=\"_top\">See all my reviews</a></div></div><div style=\"clear:both;\"></div>\n
+        \     </div>\n      <div class=\"tiny\" style=\"margin-bottom:0.5em;\">\n
+        \       <span class=\"crVerifiedStripe\"><b class=\"h3color tiny\" style=\"margin-right:
+        0.5em;\">Verified Purchase</b><span class=\"tiny verifyWhatsThis\">(<a href=\"https://www.amazon.com/gp/community-help/amazon-verified-purchase\"
+        target=\"AmazonHelp\" >What's this?</a>)</span></span>\n      </div>\n      <div
+        class=\"tiny\" style=\"margin-bottom:0.5em;\">\n        <b><span class=\"h3color
+        tiny\">This review is from: </span><a href=\"https://www.amazon.com/PowerNet-SweetSpot-Training-Baseball-Softball/dp/B06VVWCL2S\"
+        target=\"_top\">PowerNet Sweet Spot Training Bat for Baseball Softball (Misc.)</a></b>\n
+        \     </div>\n\n\n\n<div class=\"reviewText\"><div style=\"float: left; padding:
+        0px 10px 10px 0px; \"><a href=\"/gp/cdp/member-reviews/A3UEIF3R46OAU4?ie=UTF8&amp;linkCode=xm2&amp;sort_by=MostRecentReview&amp;tag=AWS_ASSOCIATE_TAG#R3M5Y6NL0QJTMY\"
+        target=\"_top\">\n\n\n\n\n\n\n\n\n\n<img src=\"https://images-na.ssl-images-amazon.com/images/I/71RNdhshLoS._SX77_CR0,0,0,0_PIcvu-teaser-shuttle,BottomLeft,0,4_.png\">\n\n\n\n\n\n\n</a></div><span
+        class=\"tiny\"><span style=\"padding-right: 10px;\"><strong>Customer Video
+        Review</strong></span> Length:: 0:15 Mins<br /><br /></span> I purchased the
+        sweet spot training bat for my daughter. She plays on a 14u fast pitch softball
+        travel team. She used it for a week before tryouts and as a result was hitting
+        balls into the outfield during tryouts. It has seemed to help her get the
+        sweet spot of her bat through the strike zone better resulting in better contact.
+        Thank you for a great product !</div>\n      <div style=\"padding-top: 10px;
+        clear: both; width: 100%;\">\n\n  \n\n\n\n\n        <div class=\"reviews-voting-stripe\"
+        style=\"float:left; padding-right:15px; border-right:1px solid #CCCCCC\"><div
+        style=\"padding-bottom:5px;\"><b class=\"tiny\" style=\"color:#666666;white-space:nowrap;\">Help
+        other customers find the most helpful reviews</b>&nbsp;</div><div style=\"width:300px;\">\n\n\n\n\n\n\n\n\n\n<a
+        name=\"R3M5Y6NL0QJTMY.2115.Helpful.Reviews\" style=\"font-size:1px;\"> </a><span\nclass=\"crVotingButtons\"><nobr><span
+        class=\"votingPrompt\">Was this review helpful to you?&nbsp;</span><a rel=\"nofollow\"
+        class=\"votingButtonReviews yesButton\" href=\"https://www.amazon.com/gp/voting/cast/Reviews/2115/R3M5Y6NL0QJTMY/Helpful/1?ie=UTF8&target=aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9wcm9kdWN0LXJldmlld3MvQjA2V1A1UDkzVj9fZW5jb2Rpbmc9VVRGOCZha2lkPUFLSUFKRlY1T1k1U01HTlNBT0hRJmFsaW5rQ29kZT14bTImYXNpbj1CMDZXUDVQOTNWJmF0YWc9cmFuZG9tVGFnJmV4cD0yMDE3LTA5LTEyVDEyJTNBMzMlM0ExN1ombGlua0NvZGU9eG0yJnNpZz16WTc5eGNxTVZRcVN5Mkl3JTI1MkZBMURBWk9MWVdEMXY1TmNZQVFiZjB6ZnB1VSUyNTNEJnRhZz1yYW5kb21UYWcmdj0y&token=8B39A2C48DFC82869667301F83A212F3695547A8&voteAnchorName=R3M5Y6NL0QJTMY.2115.Helpful.Reviews&voteSessionID=000-0000000-0000000\"><img
+        src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/btn-yes-sec-md._CB192249951_.gif\"
+        width=\"35\" alt=\"Yes\" style=\"vertical-align:middle;\" height=\"18\" border=\"0\"
+        /></a>\n<a rel=\"nofollow\" class=\"votingButtonReviews noButton\" href=\"https://www.amazon.com/gp/voting/cast/Reviews/2115/R3M5Y6NL0QJTMY/Helpful/-1?ie=UTF8&target=aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9wcm9kdWN0LXJldmlld3MvQjA2V1A1UDkzVj9fZW5jb2Rpbmc9VVRGOCZha2lkPUFLSUFKRlY1T1k1U01HTlNBT0hRJmFsaW5rQ29kZT14bTImYXNpbj1CMDZXUDVQOTNWJmF0YWc9cmFuZG9tVGFnJmV4cD0yMDE3LTA5LTEyVDEyJTNBMzMlM0ExN1ombGlua0NvZGU9eG0yJnNpZz16WTc5eGNxTVZRcVN5Mkl3JTI1MkZBMURBWk9MWVdEMXY1TmNZQVFiZjB6ZnB1VSUyNTNEJnRhZz1yYW5kb21UYWcmdj0y&token=63264621A12B6A422751F733F4AA441D356328C1&voteAnchorName=R3M5Y6NL0QJTMY.2115.Helpful.Reviews&voteSessionID=000-0000000-0000000\"><img
+        src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/btn-no-sec-md._CB192249949_.gif\"
+        width=\"35\" alt=\"No\" style=\"vertical-align:middle;\" height=\"18\" border=\"0\"
+        /></a></nobr> <span class=\"votingMessage\"></span></span>\n\n</div></div><div
+        style=\"float:left;\"><div style=\"padding-left:15px;\"><div style=\"white-space:nowrap;\"><span
+        class='tiny'>\n\n\n\n\n\n\n\n\n<a name=\"R3M5Y6NL0QJTMY.2115.Inappropriate.Reviews\"
+        style=\"font-size:1px;\"> </a><span class=\"reportingButton\"><nobr><a rel=\"nofollow\"
+        class=\"reportingButton\" href=\"https://www.amazon.com/gp/voting/cast/Reviews/2115/R3M5Y6NL0QJTMY/Inappropriate/1?ie=UTF8&target=aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9wcm9kdWN0LXJldmlld3MvQjA2V1A1UDkzVj9fZW5jb2Rpbmc9VVRGOCZha2lkPUFLSUFKRlY1T1k1U01HTlNBT0hRJmFsaW5rQ29kZT14bTImYXNpbj1CMDZXUDVQOTNWJmF0YWc9cmFuZG9tVGFnJmV4cD0yMDE3LTA5LTEyVDEyJTNBMzMlM0ExN1ombGlua0NvZGU9eG0yJnNpZz16WTc5eGNxTVZRcVN5Mkl3JTI1MkZBMURBWk9MWVdEMXY1TmNZQVFiZjB6ZnB1VSUyNTNEJnRhZz1yYW5kb21UYWcmdj0y&token=CA733B094C910E166BCF6288D6968D19EDE36807&voteAnchorName=R3M5Y6NL0QJTMY.2115.Inappropriate.Reviews&voteSessionID=000-0000000-0000000\"\n>Report
+        abuse</a></nobr></span>\n</span> <span style=\"color:#CCCCCC;\">|</span> <span
+        class=\"tiny\"><a href=\"https://www.amazon.com/review/R3M5Y6NL0QJTMY\" target=\"_top\">Permalink</a></span></div><div
+        style=\"white-space:nowrap;padding-left:-5px;padding-top:5px;\"><a href=\"https://www.amazon.com/review/R3M5Y6NL0QJTMY\"
+        target=\"_top\"><img src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/discussion_boards/comment-sm._CB192250344_.gif\"
+        width=\"16\" alt=\"Comment\" hspace=\"3\" align=\"absmiddle\" height=\"16\"
+        border=\"0\" /></a>&nbsp;<a href=\"https://www.amazon.com/review/R3M5Y6NL0QJTMY\"
+        target=\"_top\">Comment</a></div></div></div><div style=\"clear:both;\"></div>\n
+        \     </div>\n      <br />\n\n</div>\n\n  \n\n\n\n  </td>\n</tr>\n</table>\n<br
+        />\n        <div class=\"crIFrameCreateReview\" >\n          Share your thoughts
+        with other customers:\n          <span class=\"crIFrameCreateReviewButton\"><a
+        href=\"https://www.amazon.com/review/create-review?ie=UTF8&amp;asin=B06WP5P93V&amp;linkCode=xm2&amp;nodeID=&amp;tag=AWS_ASSOCIATE_TAG\"
+        target=\"_top\"><img src=\"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/communities/reviews/btn-create-own-review-md._CB192249922_.gif\"
+        width=\"145\" alt=\"\" height=\"22\" border=\"0\" /></a></span>\n        </div>\n
+        \     <span class=\"small\"><b><b class=\"h3color\">&rsaquo;</b>&nbsp;<a href=\"https://www.amazon.com/PowerNet-SweetSpot-Training-Baseball-Softball/product-reviews/B06WP5P93V\"
+        target=\"_top\">See all 4 customer reviews...</a></b></span>\n\n\n      </div>\n\n\n\n\n</div>\n</body>\n</html>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    http_version: 
+  recorded_at: Mon, 11 Sep 2017 12:33:18 GMT
+- request:
+    method: get
+    uri: http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AWS_ACCESS_KEY_ID&AssociateTag=AWS_ASSOCIATE_TAG&ItemId=B06VVPRHZ8&Operation=ItemLookup&ResponseGroup=SalesRank&Service=AWSECommerceService&Signature=Axk/f9lit5hQusdSPafRqhzbYDvkAFu6vN8JjUqvqLw=&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2017-09-11T12:33:18Z&Version=2013-08-01
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Jeff/1.5.2 (Language=Ruby; Fatos-MacBook.local)
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 11 Sep 2017 12:33:18 GMT
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Vary:
+      - Accept-Encoding,User-Agent
+    body:
+      encoding: ASCII-8BIT
+      string: <?xml version="1.0" ?><ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2013-08-01"><OperationRequest><HTTPHeaders><Header
+        Name="UserAgent" Value="Jeff/1.5.2 (Language=Ruby; Fatos-MacBook.local)"></Header></HTTPHeaders><RequestId>2aaad5c4-0a23-4e8c-8e0f-7c4deadee770</RequestId><Arguments><Argument
+        Name="AWSAccessKeyId" Value="AWS_ACCESS_KEY_ID"></Argument><Argument Name="AssociateTag"
+        Value="AWS_ASSOCIATE_TAG"></Argument><Argument Name="ItemId" Value="B06VVPRHZ8"></Argument><Argument
+        Name="Operation" Value="ItemLookup"></Argument><Argument Name="ResponseGroup"
+        Value="SalesRank"></Argument><Argument Name="Service" Value="AWSECommerceService"></Argument><Argument
+        Name="SignatureMethod" Value="HmacSHA256"></Argument><Argument Name="SignatureVersion"
+        Value="2"></Argument><Argument Name="Timestamp" Value="2017-09-11T12:33:18Z"></Argument><Argument
+        Name="Version" Value="2013-08-01"></Argument><Argument Name="Signature" Value="Axk/f9lit5hQusdSPafRqhzbYDvkAFu6vN8JjUqvqLw="></Argument></Arguments><RequestProcessingTime>0.0066631380000000</RequestProcessingTime></OperationRequest><Items><Request><IsValid>True</IsValid><ItemLookupRequest><IdType>ASIN</IdType><ItemId>B06VVPRHZ8</ItemId><ResponseGroup>SalesRank</ResponseGroup><VariationPage>All</VariationPage></ItemLookupRequest></Request><Item><ASIN>B06VVPRHZ8</ASIN><ParentASIN>B06VVPRHZ8</ParentASIN><SalesRank>424577</SalesRank></Item></Items></ItemLookupResponse>
+    http_version: 
+  recorded_at: Mon, 11 Sep 2017 12:33:19 GMT
+- request:
+    method: get
+    uri: http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AWS_ACCESS_KEY_ID&AssociateTag=AWS_ASSOCIATE_TAG&HMAC=%2BXfVuaHqzxpctvVjWiOQjA==&Item.1.ASIN=B06WP5P93V&Item.1.Quantity=999&Operation=CartCreate&Service=AWSECommerceService&Signature=%2BUJVTrjlrtSPyIYJjafP7VdRzEI849jWgq7LJBgsgVo=&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2017-09-11T12:33:19Z&Version=2013-08-01
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Jeff/1.5.2 (Language=Ruby; Fatos-MacBook.local)
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 11 Sep 2017 12:33:18 GMT
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Vary:
+      - Accept-Encoding,User-Agent
+    body:
+      encoding: ASCII-8BIT
+      string: '<?xml version="1.0" ?><CartCreateResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2013-08-01"><OperationRequest><HTTPHeaders><Header
+        Name="UserAgent" Value="Jeff/1.5.2 (Language=Ruby; Fatos-MacBook.local)"/></HTTPHeaders><RequestId>46564d73-da3e-4e52-b924-85a6b5c9cd82</RequestId><Arguments><Argument
+        Name="AWSAccessKeyId" Value="AWS_ACCESS_KEY_ID"/><Argument Name="AssociateTag"
+        Value="AWS_ASSOCIATE_TAG"/><Argument Name="HMAC" Value="+XfVuaHqzxpctvVjWiOQjA=="/><Argument
+        Name="Item.1.ASIN" Value="B06WP5P93V"/><Argument Name="Item.1.Quantity" Value="999"/><Argument
+        Name="Operation" Value="CartCreate"/><Argument Name="Service" Value="AWSECommerceService"/><Argument
+        Name="SignatureMethod" Value="HmacSHA256"/><Argument Name="SignatureVersion"
+        Value="2"/><Argument Name="Timestamp" Value="2017-09-11T12:33:19Z"/><Argument
+        Name="Version" Value="2013-08-01"/><Argument Name="Signature" Value="+UJVTrjlrtSPyIYJjafP7VdRzEI849jWgq7LJBgsgVo="/></Arguments><RequestProcessingTime>0.08124287</RequestProcessingTime></OperationRequest><Cart><Request><IsValid>True</IsValid><CartCreateRequest><Items><Item><ASIN>B06WP5P93V</ASIN><Quantity>999</Quantity></Item></Items></CartCreateRequest><Errors><Error><Code>AWS.ECommerceService.InvalidQuantity</Code><Message>You
+        have exceeded the maximum quantity allowed for the following items: B06WP5P93V.</Message></Error></Errors></Request><CartId>132-1420141-7122348</CartId><HMAC>E7iTqLHDASbvi/W/oRTxa6PR97Y=</HMAC><URLEncodedHMAC>E7iTqLHDASbvi%2FW%2FoRTxa6PR97Y%3D</URLEncodedHMAC><PurchaseURL>https://www.amazon.com/gp/cart/aws-merge.html?cart-id=132-1420141-7122348&amp;associate-id=AWS_ASSOCIATE_TAG&amp;hmac=E7iTqLHDASbvi%2FW%2FoRTxa6PR97Y%3D&amp;SubscriptionId=AWS_ACCESS_KEY_ID&amp;MergeCart=False</PurchaseURL><SubTotal><Amount>401933</Amount><CurrencyCode>USD</CurrencyCode><FormattedPrice>$4,019.33</FormattedPrice></SubTotal><CartItems><SubTotal><Amount>401933</Amount><CurrencyCode>USD</CurrencyCode><FormattedPrice>$4,019.33</FormattedPrice></SubTotal><CartItem><CartItemId>CUFGNDEZ63RUE</CartItemId><ASIN>B06WP5P93V</ASIN><SellerNickname>Baseball
+        Training Nets</SellerNickname><Quantity>67</Quantity><Title>PowerNet 27" SweetSpot
+        Training Bat for Baseball Softball</Title><ProductGroup>Sports</ProductGroup><Price><Amount>5999</Amount><CurrencyCode>USD</CurrencyCode><FormattedPrice>$59.99</FormattedPrice></Price><ItemTotal><Amount>401933</Amount><CurrencyCode>USD</CurrencyCode><FormattedPrice>$4,019.33</FormattedPrice></ItemTotal></CartItem></CartItems></Cart></CartCreateResponse>'
+    http_version: 
+  recorded_at: Mon, 11 Sep 2017 12:33:19 GMT
+recorded_with: VCR 3.0.3
