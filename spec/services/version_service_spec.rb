@@ -11,7 +11,7 @@ RSpec.describe VersionService do
   end
 
   context "Version's " do
-    %w(asin title images features 
+    %w(asin title images features reviews_number 
      best_seller_rank price inventory).each do |attribute|
       it "#{attribute} attribute should be present", :vcr do
         expect(version[:"#{attribute}"]).to be_present
