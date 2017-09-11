@@ -20,7 +20,9 @@ gem "sprockets", ">= 3.0.0"
 gem "suspenders"
 gem "title"
 gem "uglifier"
+gem 'retryable'
 gem 'money-rails', '~>1'
+gem 'vacuum', '~> 2.0', '>= 2.0.2'
 
 group :development do
   gem "listen"
@@ -53,6 +55,7 @@ group :test do
   gem "simplecov", require: false
   gem "timecop"
   gem "webmock"
+  gem "vcr"
   gem 'faker'
 end
 
@@ -62,5 +65,5 @@ end
 
 gem 'high_voltage'
 gem 'bourbon', '~> 5.0.0.beta.7'
-gem 'neat', '~> 2.0.0.beta.1'
+gem 'neat', '~> 1.8.0.beta.1'
 gem 'refills', group: [:development, :test]
