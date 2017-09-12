@@ -28,6 +28,8 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem 'cocoon'
 gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+gem 'jbuilder', '~> 2.7'
 
 group :development do
   gem "listen"
