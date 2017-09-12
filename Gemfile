@@ -3,7 +3,6 @@ source "https://rubygems.org"
 ruby "2.4.0"
 
 gem "autoprefixer-rails"
-gem "delayed_job_active_record"
 gem "flutie"
 gem "honeybadger"
 gem "jquery-rails"
@@ -23,6 +22,8 @@ gem "uglifier"
 gem 'retryable'
 gem 'money-rails', '~>1'
 gem 'vacuum', '~> 2.0', '>= 2.0.2'
+gem 'sidekiq'
+gem 'whenever'
 
 group :development do
   gem "listen"
@@ -57,6 +58,7 @@ group :test do
   gem "webmock"
   gem "vcr"
   gem 'faker'
+  gem 'rspec-sidekiq'
 end
 
 group :staging, :production do
