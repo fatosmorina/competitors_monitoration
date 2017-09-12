@@ -1,0 +1,16 @@
+jQuery ->
+  add_remove_product_link = ->
+    if $('#products .nested-fields:visible').length == <%= Product::MAX_NUMBER_OF_PRODUCTS_PER_GROUP %>
+      $('#add_product a').hide()
+    else
+      $('#add_product a').show()
+
+  $('#products').on 'cocoon:after-insert', ->
+    add_remove_product_link()
+
+  $('#products').on 'cocoon:after-remove', ->
+    add_remove_product_link()
+
+  add_remove_product_link()
+
+

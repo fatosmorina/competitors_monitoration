@@ -8,6 +8,7 @@ class Group < ApplicationRecord
   validates_presence_of :user, :name
 
   validate :max_number_of_groups_per_user, on: :create
+  accepts_nested_attributes_for :products, reject_if: :all_blank, allow_destroy: true 
 
 private
 
