@@ -20,7 +20,8 @@ FactoryGirl.define do
     user nil
   end
   factory :user do
-    email "MyString"
-    name "MyString"
+    email Faker::Internet.email
+    name "Name"
+    password Faker::Internet.password
   end
 end
