@@ -24,6 +24,10 @@ gem 'money-rails', '~>1'
 gem 'vacuum', '~> 2.0', '>= 2.0.2'
 gem 'sidekiq'
 gem 'whenever'
+gem 'devise'
+gem 'bootstrap-sass'
+gem 'cocoon'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
 
 group :development do
   gem "listen"

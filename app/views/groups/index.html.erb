@@ -1,0 +1,30 @@
+<p>Groups</p>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="2">Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @groups.each do |group| %>
+      <tr>
+        <td><%= link_to group.name, group_path(group) %></td>
+        <td><%= link_to 'Edit', edit_group_path(group) %> - 
+          <%= link_to 'Delete', group, method: :delete, data: { confirm: 'Are you sure you want to delete this group?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<% if @current_user.groups.count < Group::MAX_NUMBER_OF_GROUPS_PER_USER%>
+  <%= link_to 'New Group', new_group_path, class: 'btn btn-primary btn-lg' %>
+<% else %>
+  <%= link_to 'New Group', '#', class: 'btn btn-primary btn-lg disabled' %>
+  <div class="small"> You cannot add more than <%= Group::MAX_NUMBER_OF_GROUPS_PER_USER %> groups.</div>
+<% end %>
+
