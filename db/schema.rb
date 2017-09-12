@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170912053408) do
+ActiveRecord::Schema.define(version: 20170912191704) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,6 +37,15 @@ ActiveRecord::Schema.define(version: 20170912053408) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_groups_on_user_id", using: :btree
+  end
+
+  create_table "notifications", force: :cascade do |t|
+    t.string   "product_changed"
+    t.integer  "user_id"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.datetime "read_at"
+    t.index ["user_id"], name: "index_notifications_on_user_id", using: :btree
   end
 
   create_table "products", force: :cascade do |t|
@@ -72,7 +81,7 @@ ActiveRecord::Schema.define(version: 20170912053408) do
     t.text     "features"
     t.integer  "reviews_number"
     t.integer  "best_seller_rank"
-    t.integer  "price"
+    t.string   "price"
     t.integer  "product_id"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
@@ -80,6 +89,7 @@ ActiveRecord::Schema.define(version: 20170912053408) do
   end
 
   add_foreign_key "groups", "users"
+  add_foreign_key "notifications", "users"
   add_foreign_key "products", "groups"
   add_foreign_key "versions", "products"
 end

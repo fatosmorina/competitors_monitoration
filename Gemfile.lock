@@ -113,6 +113,8 @@ GEM
       i18n (~> 0.5)
     ffi (1.9.18)
     flutie (2.0.0)
+    font-awesome-rails (4.7.0.2)
+      railties (>= 3.2, < 5.2)
     formulaic (0.4.0)
       activesupport
       capybara
@@ -123,6 +125,9 @@ GEM
     high_voltage (3.0.0)
     honeybadger (3.1.2)
     i18n (0.8.6)
+    jbuilder (2.7.0)
+      activesupport (>= 4.2.0)
+      multi_json (>= 1.2)
     jeff (1.5.2)
       excon (>= 0.22.1)
     jquery-rails (4.3.1)
@@ -155,6 +160,7 @@ GEM
       monetize (~> 1.7.0)
       money (~> 6.9.0)
       railties (>= 3.0)
+    multi_json (1.12.1)
     multi_xml (0.6.0)
     neat (1.8.0)
       sass (>= 3.3)
@@ -343,9 +349,11 @@ DEPENDENCIES
   factory_girl_rails
   faker
   flutie
+  font-awesome-rails (~> 4.7, >= 4.7.0.2)
   formulaic
   high_voltage
   honeybadger
+  jbuilder (~> 2.7)
   jquery-rails
   launchy
   listen

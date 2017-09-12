@@ -1,4 +1,10 @@
+require 'faker'
+
 FactoryGirl.define do
+  factory :notification do
+    versions_changed "MyString"
+    user nil
+  end
   factory :version do
     title "MyString"
     images "MyText"
